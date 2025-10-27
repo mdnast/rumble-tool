@@ -1,0 +1,156 @@
+2025-10-25 15:32:51,187 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:32:51,187 - INFO - [DRIVER] Initializing undetected Chrome...
+2025-10-25 15:32:52,836 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:32:55,517 - INFO - [DRIVER] Undetected Chrome initialized successfully
+2025-10-25 15:32:55,517 - INFO - ============================================================
+2025-10-25 15:32:55,517 - INFO - [START] Registration attempt @ 15:32:55
+2025-10-25 15:32:55,517 - INFO - ============================================================
+2025-10-25 15:32:55,518 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:32:59,019 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:33:02,271 - INFO - [SCREENSHOT] Saved: logs/screenshot_01_page_loaded_1761381182.png
+2025-10-25 15:33:02,271 - INFO - [CAPTCHA] Checking for initial CAPTCHA...
+2025-10-25 15:33:12,336 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:33:14,337 - INFO - [USER] Email: vve3jdq0cal.6819@outlook.com
+2025-10-25 15:33:14,337 - INFO - [USER] Username: vve3jdq0cal52
+2025-10-25 15:33:14,337 - INFO - [FORM] Filling form...
+2025-10-25 15:33:17,201 - INFO - [FORM] Email: vve3jdq0cal.6819@outlook.com
+2025-10-25 15:33:47,891 - INFO - [FORM] Month: January
+2025-10-25 15:33:48,240 - INFO - [FORM] Day: 11
+2025-10-25 15:33:48,590 - INFO - [FORM] Year: 1995
+2025-10-25 15:33:49,091 - INFO - [FORM] Form filled successfully
+2025-10-25 15:33:49,324 - INFO - [SCREENSHOT] Saved: logs/screenshot_03_form_filled_1761381229.png
+2025-10-25 15:33:49,324 - INFO - [CAPTCHA] Checking for post-fill CAPTCHA...
+2025-10-25 15:33:59,378 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:34:01,378 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:34:11,938 - INFO - [SUBMIT] No terms checkbox found or already checked
+2025-10-25 15:34:22,468 - ERROR - [SUBMIT] Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xacfe43+66515]
+	GetHandleVerifier [0x0xacfe84+66580]
+	(No symbol) [0x0x8bdc48]
+	(No symbol) [0x0x908704]
+	(No symbol) [0x0x908aab]
+	(No symbol) [0x0x94f482]
+	(No symbol) [0x0x92b214]
+	(No symbol) [0x0x94cba7]
+	(No symbol) [0x0x92afc6]
+	(No symbol) [0x0x8fc2ca]
+	(No symbol) [0x0x8fd154]
+	GetHandleVerifier [0x0xd27353+2521315]
+	GetHandleVerifier [0x0xd222d3+2500707]
+	GetHandleVerifier [0x0xaf7c94+229924]
+	GetHandleVerifier [0x0xae81f8+165768]
+	GetHandleVerifier [0x0xaeecad+193085]
+	GetHandleVerifier [0x0xad8158+100072]
+	GetHandleVerifier [0x0xad82f0+100480]
+	GetHandleVerifier [0x0xac25aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 15:34:22,706 - INFO - [SCREENSHOT] Saved: logs/screenshot_04_submit_error_1761381262.png
+2025-10-25 15:34:22,706 - ERROR - [FATAL] Error: EOF when reading a line
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main_undetected.py", line 434, in main
+    input("\nPress ENTER to close browser...")
+EOFError: EOF when reading a line
+2025-10-25 15:34:22,708 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:34:23,094 - INFO - [CLOSE] Browser closed
+2025-10-25 15:37:31,570 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:37:31,571 - INFO - [DRIVER] Initializing undetected Chrome...
+2025-10-25 15:37:36,154 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:37:41,383 - INFO - [DRIVER] Undetected Chrome initialized successfully
+2025-10-25 15:37:41,383 - INFO - ============================================================
+2025-10-25 15:37:41,383 - INFO - [START] Registration attempt @ 15:37:41
+2025-10-25 15:37:41,383 - INFO - ============================================================
+2025-10-25 15:37:41,384 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:37:45,438 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:37:49,029 - INFO - [SCREENSHOT] Saved: logs/screenshot_01_page_loaded_1761381468.png
+2025-10-25 15:37:49,030 - INFO - [CAPTCHA] Checking for initial CAPTCHA...
+2025-10-25 15:37:59,054 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:38:01,055 - INFO - [USER] Email: 3u7y5iwfg8e.3391@outlook.com
+2025-10-25 15:38:01,055 - INFO - [USER] Username: 3u7y5iwfg8e12
+2025-10-25 15:38:01,056 - INFO - [FORM] Filling form...
+2025-10-25 15:38:05,074 - INFO - [FORM] Email: 3u7y5iwfg8e.3391@outlook.com
+2025-10-25 15:38:35,886 - INFO - [FORM] Month: June
+2025-10-25 15:38:36,325 - INFO - [FORM] Day: 15
+2025-10-25 15:38:36,762 - INFO - [FORM] Year: 2007
+2025-10-25 15:38:37,264 - INFO - [FORM] Form filled successfully
+2025-10-25 15:38:37,831 - INFO - [SCREENSHOT] Saved: logs/screenshot_03_form_filled_1761381517.png
+2025-10-25 15:38:37,831 - INFO - [CAPTCHA] Checking for post-fill CAPTCHA...
+2025-10-25 15:38:47,840 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:38:49,841 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:39:00,380 - INFO - [SUBMIT] No terms checkbox found or already checked
+2025-10-25 15:39:10,919 - ERROR - [SUBMIT] Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x30fe43+66515]
+	GetHandleVerifier [0x0x30fe84+66580]
+	(No symbol) [0x0xfdc48]
+	(No symbol) [0x0x148704]
+	(No symbol) [0x0x148aab]
+	(No symbol) [0x0x18f482]
+	(No symbol) [0x0x16b214]
+	(No symbol) [0x0x18cba7]
+	(No symbol) [0x0x16afc6]
+	(No symbol) [0x0x13c2ca]
+	(No symbol) [0x0x13d154]
+	GetHandleVerifier [0x0x567353+2521315]
+	GetHandleVerifier [0x0x5622d3+2500707]
+	GetHandleVerifier [0x0x337c94+229924]
+	GetHandleVerifier [0x0x3281f8+165768]
+	GetHandleVerifier [0x0x32ecad+193085]
+	GetHandleVerifier [0x0x318158+100072]
+	GetHandleVerifier [0x0x3182f0+100480]
+	GetHandleVerifier [0x0x3025aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+	(No symbol) [0x0]
+
+2025-10-25 15:39:11,468 - INFO - [SCREENSHOT] Saved: logs/screenshot_04_submit_error_1761381550.png
+2025-10-25 15:39:11,468 - ERROR - [FATAL] Error: EOF when reading a line
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main_undetected.py", line 434, in main
+    input("\nPress ENTER to close browser...")
+EOFError: EOF when reading a line
+2025-10-25 15:39:11,470 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:39:12,247 - INFO - [CLOSE] Browser closed
+2025-10-25 15:40:10,566 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:40:10,566 - INFO - [DRIVER] Initializing undetected Chrome...
+2025-10-25 15:40:12,362 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:40:15,052 - INFO - [DRIVER] Undetected Chrome initialized successfully
+2025-10-25 15:40:15,052 - INFO - ============================================================
+2025-10-25 15:40:15,052 - INFO - [START] Registration attempt @ 15:40:15
+2025-10-25 15:40:15,052 - INFO - ============================================================
+2025-10-25 15:40:15,052 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:40:18,488 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:40:21,730 - INFO - [SCREENSHOT] Saved: C:\rumble-tool\python\logs\screenshot_01_page_loaded_1761381621.png
+2025-10-25 15:40:21,730 - INFO - [CAPTCHA] Checking for initial CAPTCHA...
+2025-10-25 15:40:31,788 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:40:33,789 - INFO - [USER] Email: 2c8v8g4scbx.5280@outlook.com
+2025-10-25 15:40:33,789 - INFO - [USER] Username: 2c8v8g4scbx67
+2025-10-25 15:40:33,789 - INFO - [FORM] Filling form...
+2025-10-25 15:40:36,830 - INFO - [FORM] Email: 2c8v8g4scbx.5280@outlook.com
+2025-10-25 15:41:07,549 - INFO - [FORM] Month: June
+2025-10-25 15:41:07,898 - INFO - [FORM] Day: 24
+2025-10-25 15:41:08,251 - INFO - [FORM] Year: 1998
+2025-10-25 15:41:08,751 - INFO - [FORM] Form filled successfully
+2025-10-25 15:41:08,986 - INFO - [SCREENSHOT] Saved: C:\rumble-tool\python\logs\screenshot_03_form_filled_1761381668.png
+2025-10-25 15:41:08,986 - INFO - [CAPTCHA] Checking for post-fill CAPTCHA...
+2025-10-25 15:41:19,015 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:41:21,016 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:41:31,575 - INFO - [SUBMIT] No terms checkbox found or already checked
+2025-10-25 15:41:31,575 - INFO - [SUBMIT] Trying XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 15:41:31,601 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 15:41:31,601 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 15:41:31,617 - INFO - [SUBMIT] Form submitted (JS click)!
+2025-10-25 15:41:34,873 - INFO - [SCREENSHOT] Saved: C:\rumble-tool\python\logs\screenshot_05_after_submit_1761381694.png
+2025-10-25 15:41:34,873 - INFO - [CAPTCHA] Checking for post-submit CAPTCHA...
+2025-10-25 15:41:44,899 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:41:44,900 - INFO - [WAIT] Waiting up to 30s for result...
+2025-10-25 15:42:05,028 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-25 15:42:05,266 - INFO - [SCREENSHOT] Saved: C:\rumble-tool\python\logs\screenshot_06_final_1761381725.png
+2025-10-25 15:42:05,266 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 15:42:15,266 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:42:15,639 - INFO - [CLOSE] Browser closed

@@ -1,0 +1,226 @@
+2025-10-25 15:10:41,356 - INFO - 🧬 Using User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+2025-10-25 15:10:49,214 - INFO - ✅ Driver initialized successfully
+2025-10-25 15:10:49,216 - INFO - Navigating to: https://rumble.com/register/
+2025-10-25 15:10:54,195 - INFO - ✅ Navigated to registration page and basic elements located.
+2025-10-25 15:10:56,419 - ERROR - [ERROR] FATAL ERROR in main execution: 'charmap' codec can't encode character '\U0001f3af' in position 0: character maps to <undefined>
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main.py", line 577, in main
+    success = register.run_ultimate_registration() # Hàm này xử lý cả 2 form
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\python\main.py", line 401, in run_ultimate_registration
+    print(f"🎯 RUMBLE STANDARD REGISTRATION - Attempt @ {datetime.now().strftime('%H:%M:%S')}")
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f3af' in position 0: character maps to <undefined>
+2025-10-25 15:10:56,772 - INFO -    📸 Screenshot saved: logs/screenshot_fatal_main_error_1761379856.png
+2025-10-25 15:11:32,548 - INFO - [UA] Using User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.75 Safari/537.36
+2025-10-25 15:11:35,007 - INFO - [OK] Driver initialized successfully
+2025-10-25 15:11:35,007 - INFO - Navigating to: https://rumble.com/register/
+2025-10-25 15:11:40,108 - INFO - [OK] Navigated to registration page and basic elements located.
+2025-10-25 15:11:42,262 - INFO - [FORM] Generated user: 3fwhdakkeg.149@hotmail.com, User: 3fwhdakkeg15, Gender: female, Birthday: December 23, 1963, Country Target: Vietnam
+2025-10-25 15:11:42,615 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_initial_page_1761379902.png
+2025-10-25 15:11:42,615 - INFO - 
+[FORM] Filling form fields...
+2025-10-25 15:11:46,177 - INFO -    [OK] Email filled and 'blur' triggered
+2025-10-25 15:11:48,417 - INFO -    [OK] Username filled and 'blur' triggered
+2025-10-25 15:11:49,193 - INFO -    [OK] Gender selected & events triggered: female
+2025-10-25 15:11:50,671 - INFO -       Clicked outside Gender select (on body).
+2025-10-25 15:11:51,770 - INFO -    [OK] Month selected: December
+2025-10-25 15:11:52,158 - INFO -    [OK] Day selected: 23
+2025-10-25 15:11:52,550 - INFO -    [OK] Year selected: 1963
+2025-10-25 15:11:53,762 - INFO -       Clicked outside Birthday select (on body).
+2025-10-25 15:11:53,762 - INFO -    [OK] Birthday selected & events triggered & clicked out
+2025-10-25 15:11:54,534 - INFO -    [CLICK] Trying to select Country: 'United States'
+2025-10-25 15:11:54,692 - INFO -    [OK] Country selected & events triggered: United States
+2025-10-25 15:11:56,101 - INFO -       Clicked outside Country select (on body).
+2025-10-25 15:11:56,771 - INFO - [OK] Finished filling form fields.
+2025-10-25 15:11:56,800 - INFO -    [INFO] Detected LONG registration form (Username/Gender/Country found).
+2025-10-25 15:11:57,161 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_before_submit_1761379916.png
+2025-10-25 15:11:57,161 - INFO -    ⏩ Proceeding with Terms check and Submit (Long Form)...
+2025-10-25 15:11:57,161 - INFO - 
+[OK] Checking terms and submitting...
+2025-10-25 15:11:57,161 - INFO -    [CLICK] Trying checkbox XPath #1: //label[contains(., 'By creating an account with Rumble')]/input[@type='checkbox']
+2025-10-25 15:12:09,579 - INFO -    [CLICK] Trying checkbox XPath #2: //input[@type='checkbox'][contains(@id, 'terms') or contains(@name, 'terms')]
+2025-10-25 15:12:10,153 - INFO -    [OK] Found clickable checkbox with XPath #2
+2025-10-25 15:12:10,167 - INFO -    [CLICK] Clicking terms checkbox...
+2025-10-25 15:12:11,216 - INFO -    [OK] Terms checked successfully.
+2025-10-25 15:12:11,895 - INFO -    [CLICK] Clicking Next button...
+2025-10-25 15:12:11,946 - INFO -    [OK] Next button clicked
+2025-10-25 15:12:11,947 - INFO - 
+[SUCCESS] FORM SUBMITTED! Waiting up to 20 seconds for the next step...
+2025-10-25 15:12:32,285 - ERROR - [FAIL] TIMEOUT after submit! Waited 20s, but no expected element appeared.
+2025-10-25 15:12:32,285 - ERROR -    Current URL after timeout: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-25 15:12:32,873 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_after_submit_timeout_1761379952.png
+2025-10-25 15:12:32,873 - WARNING -    [WARN] Still on registration page after timeout. Likely a hidden validation error or undetected CAPTCHA.
+2025-10-25 15:12:34,991 - ERROR -    [FAIL] Still on registration page and no obvious CAPTCHA found. Submit likely failed silently.
+2025-10-25 15:12:34,991 - INFO - Closing browser...
+2025-10-25 15:12:37,444 - INFO - Browser closed
+2025-10-25 15:18:45,043 - INFO - [UA] Using User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36 OPR/101.0.0.0
+2025-10-25 15:18:47,617 - INFO - [OK] Driver initialized successfully
+2025-10-25 15:18:47,618 - INFO - Navigating to: https://rumble.com/register/
+2025-10-25 15:18:51,980 - INFO - [OK] Navigated to registration page and basic elements located.
+2025-10-25 15:18:53,533 - INFO - [FORM] Generated user: wbk5xk5egb.858@outlook.com, User: wbk5xk5egb28, Gender: male, Birthday: April 21, 1996, Country Target: Vietnam
+2025-10-25 15:18:53,906 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_initial_page_1761380333.png
+2025-10-25 15:18:53,906 - INFO - 
+[FORM] Filling form fields...
+2025-10-25 15:18:57,395 - INFO -    [OK] Email filled and 'blur' triggered
+2025-10-25 15:18:59,594 - INFO -    [OK] Username filled and 'blur' triggered
+2025-10-25 15:19:00,307 - INFO -    [OK] Gender selected & events triggered: male
+2025-10-25 15:19:01,757 - INFO -       Clicked outside Gender select (on body).
+2025-10-25 15:19:02,699 - INFO -    [OK] Month selected: April
+2025-10-25 15:19:03,102 - INFO -    [OK] Day selected: 21
+2025-10-25 15:19:03,519 - INFO -    [OK] Year selected: 1996
+2025-10-25 15:19:04,760 - INFO -       Clicked outside Birthday select (on body).
+2025-10-25 15:19:04,760 - INFO -    [OK] Birthday selected & events triggered & clicked out
+2025-10-25 15:19:05,509 - INFO -    [CLICK] Trying to select Country: 'United States'
+2025-10-25 15:19:05,662 - INFO -    [OK] Country selected & events triggered: United States
+2025-10-25 15:19:07,086 - INFO -       Clicked outside Country select (on body).
+2025-10-25 15:19:07,875 - INFO - [OK] Finished filling form fields.
+2025-10-25 15:19:07,906 - INFO -    [INFO] Detected LONG registration form (Username/Gender/Country found).
+2025-10-25 15:19:08,270 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_before_submit_1761380347.png
+2025-10-25 15:19:08,270 - INFO -    ⏩ Proceeding with Terms check and Submit (Long Form)...
+2025-10-25 15:19:08,270 - INFO - 
+[OK] Checking terms and submitting...
+2025-10-25 15:19:08,271 - INFO -    [CLICK] Trying checkbox XPath #1: //label[contains(., 'By creating an account with Rumble')]/input[@type='checkbox']
+2025-10-25 15:19:20,664 - INFO -    [CLICK] Trying checkbox XPath #2: //input[@type='checkbox'][contains(@id, 'terms') or contains(@name, 'terms')]
+2025-10-25 15:19:21,242 - INFO -    [OK] Found clickable checkbox with XPath #2
+2025-10-25 15:19:21,257 - INFO -    [CLICK] Clicking terms checkbox...
+2025-10-25 15:19:22,424 - INFO -    [OK] Terms checked successfully.
+2025-10-25 15:19:23,110 - INFO -    [CLICK] Clicking Next button...
+2025-10-25 15:19:23,158 - INFO -    [OK] Next button clicked
+2025-10-25 15:19:23,158 - INFO - 
+[SUCCESS] FORM SUBMITTED! Waiting up to 20 seconds for the next step...
+2025-10-25 15:19:43,327 - ERROR - [FAIL] TIMEOUT after submit! Waited 20s, but no expected element appeared.
+2025-10-25 15:19:43,328 - ERROR -    Current URL after timeout: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-25 15:19:43,664 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_after_submit_timeout_1761380383.png
+2025-10-25 15:19:43,664 - WARNING -    [WARN] Still on registration page after timeout. Likely a hidden validation error or undetected CAPTCHA.
+2025-10-25 15:19:45,736 - ERROR -    [FAIL] Still on registration page and no obvious CAPTCHA found. Submit likely failed silently.
+2025-10-25 15:19:45,736 - INFO - Closing browser...
+2025-10-25 15:19:49,331 - INFO - Browser closed
+2025-10-25 16:18:54,461 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:18:54,463 - INFO - [UA] Using User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/117.0
+2025-10-25 16:18:59,548 - INFO - [OK] Driver initialized successfully
+2025-10-25 16:18:59,548 - INFO - Navigating to: https://rumble.com/register/
+2025-10-25 16:19:02,857 - INFO - [OK] Navigated to registration page and basic elements located.
+2025-10-25 16:19:05,205 - INFO - [FORM] Generated user: 3sc8dlfsow.7045@yahoo.com, User: 3sc8dlfsow60, Gender: female, Birthday: July 1, 1997, Country Target: Vietnam
+2025-10-25 16:19:05,351 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_initial_page_1761383945.png
+2025-10-25 16:19:05,352 - INFO - [CAPTCHA] Checking for CAPTCHA before form submission...
+2025-10-25 16:19:05,360 - INFO - [CAPTCHA] No Turnstile detected
+2025-10-25 16:19:05,361 - INFO - [CAPTCHA] Initial check passed
+2025-10-25 16:19:07,361 - INFO - 
+[FORM] Filling form fields...
+2025-10-25 16:19:09,807 - INFO -    [OK] Email filled and 'blur' triggered
+2025-10-25 16:19:11,494 - INFO -    [OK] Username filled and 'blur' triggered
+2025-10-25 16:19:12,163 - INFO -    [OK] Gender selected & events triggered: female
+2025-10-25 16:19:13,501 - INFO -       Clicked outside Gender select (on body).
+2025-10-25 16:19:14,416 - INFO -    [OK] Month selected: July
+2025-10-25 16:19:14,693 - INFO -    [OK] Day selected: 1
+2025-10-25 16:19:14,976 - INFO -    [OK] Year selected: 1997
+2025-10-25 16:19:16,097 - INFO -       Clicked outside Birthday select (on body).
+2025-10-25 16:19:16,097 - INFO -    [OK] Birthday selected & events triggered & clicked out
+2025-10-25 16:19:16,911 - INFO -    [CLICK] Trying to select Country: 'United States'
+2025-10-25 16:19:16,967 - INFO -    [OK] Country selected & events triggered: United States
+2025-10-25 16:19:18,295 - INFO -       Clicked outside Country select (on body).
+2025-10-25 16:19:19,016 - INFO - [OK] Finished filling form fields.
+2025-10-25 16:19:19,043 - INFO -    [INFO] Detected LONG registration form (Username/Gender/Country found).
+2025-10-25 16:19:19,187 - INFO -    [SCREENSHOT] Screenshot saved: logs/screenshot_before_submit_1761383959.png
+2025-10-25 16:19:19,187 - INFO -    ⏩ Proceeding with Terms check and Submit (Long Form)...
+2025-10-25 16:19:19,187 - INFO - 
+[OK] Checking terms and submitting...
+2025-10-25 16:19:19,187 - INFO -    [CLICK] Trying checkbox XPath #1: //label[contains(., 'By creating an account with Rumble')]/input[@type='checkbox']
+2025-10-25 16:19:31,372 - INFO -    [CLICK] Trying checkbox XPath #2: //input[@type='checkbox'][contains(@id, 'terms') or contains(@name, 'terms')]
+2025-10-25 16:19:31,907 - INFO -    [OK] Found clickable checkbox with XPath #2
+2025-10-25 16:19:31,913 - INFO -    [CLICK] Clicking terms checkbox...
+2025-10-25 16:19:32,650 - INFO -    [OK] Terms checked successfully.
+2025-10-25 16:19:33,288 - INFO -    [CLICK] Clicking Next button...
+2025-10-25 16:19:33,312 - INFO -    [OK] Next button clicked
+2025-10-25 16:19:33,312 - INFO - 
+[SUCCESS] FORM SUBMITTED! Checking for CAPTCHA...
+2025-10-25 16:19:36,319 - INFO - [CAPTCHA] No Turnstile detected
+2025-10-25 16:19:36,319 - INFO - [CAPTCHA] Solved or not needed, continuing...
+2025-10-25 16:19:36,319 - INFO - 
+Waiting up to 20 seconds for the next step...
+2025-10-25 16:19:56,522 - ERROR - [FAIL] An unexpected error occurred during registration process: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff714b6e8e5+80021]
+	GetHandleVerifier [0x0x7ff714b6e940+80112]
+	(No symbol) [0x0x7ff7148f0425]
+	(No symbol) [0x0x7ff71493864f]
+	(No symbol) [0x0x7ff7149710f2]
+	(No symbol) [0x0x7ff71496b89f]
+	(No symbol) [0x0x7ff71496a94a]
+	(No symbol) [0x0x7ff7148ba765]
+	GetHandleVerifier [0x0x7ff714e2dc7d+2960429]
+	GetHandleVerifier [0x0x7ff714e27f3a+2936554]
+	GetHandleVerifier [0x0x7ff714e48977+3070247]
+	GetHandleVerifier [0x0x7ff714b883ce+185214]
+	GetHandleVerifier [0x0x7ff714b8fe1f+216527]
+	(No symbol) [0x0x7ff7148b970e]
+	GetHandleVerifier [0x0x7ff714f66a68+4241944]
+	BaseThreadInitThunk [0x0x7ffdaa80e8d7+23]
+	RtlUserThreadStart [0x0x7ffdaafec53c+44]
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main.py", line 619, in run_ultimate_registration
+    next_step_element = wait_after_submit.until(
+                        ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 101, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main.py", line 664, in run_ultimate_registration
+    current_url_timeout = self.driver.current_url
+                          ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 436, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 346, in execute
+    self.error_handler.check_response(response)
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff714b6e8e5+80021]
+	GetHandleVerifier [0x0x7ff714b6e940+80112]
+	(No symbol) [0x0x7ff7148f0425]
+	(No symbol) [0x0x7ff71493864f]
+	(No symbol) [0x0x7ff7149710f2]
+	(No symbol) [0x0x7ff71496b89f]
+	(No symbol) [0x0x7ff71496a94a]
+	(No symbol) [0x0x7ff7148ba765]
+	GetHandleVerifier [0x0x7ff714e2dc7d+2960429]
+	GetHandleVerifier [0x0x7ff714e27f3a+2936554]
+	GetHandleVerifier [0x0x7ff714e48977+3070247]
+	GetHandleVerifier [0x0x7ff714b883ce+185214]
+	GetHandleVerifier [0x0x7ff714b8fe1f+216527]
+	(No symbol) [0x0x7ff7148b970e]
+	GetHandleVerifier [0x0x7ff714f66a68+4241944]
+	BaseThreadInitThunk [0x0x7ffdaa80e8d7+23]
+	RtlUserThreadStart [0x0x7ffdaafec53c+44]
+
+2025-10-25 16:19:56,544 - ERROR -    [FAIL] Screenshot exception: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x7ff714b6e8e5+80021]
+	GetHandleVerifier [0x0x7ff714b6e940+80112]
+	(No symbol) [0x0x7ff7148f0425]
+	(No symbol) [0x0x7ff71493864f]
+	(No symbol) [0x0x7ff7149710f2]
+	(No symbol) [0x0x7ff71496b89f]
+	(No symbol) [0x0x7ff71496a94a]
+	(No symbol) [0x0x7ff7148ba765]
+	GetHandleVerifier [0x0x7ff714e2dc7d+2960429]
+	GetHandleVerifier [0x0x7ff714e27f3a+2936554]
+	GetHandleVerifier [0x0x7ff714e48977+3070247]
+	GetHandleVerifier [0x0x7ff714b883ce+185214]
+	GetHandleVerifier [0x0x7ff714b8fe1f+216527]
+	(No symbol) [0x0x7ff7148b970e]
+	GetHandleVerifier [0x0x7ff714f66a68+4241944]
+	BaseThreadInitThunk [0x0x7ffdaa80e8d7+23]
+	RtlUserThreadStart [0x0x7ffdaafec53c+44]
+
+2025-10-25 16:19:56,545 - INFO - Closing browser...
+2025-10-25 16:19:58,582 - INFO - Browser closed

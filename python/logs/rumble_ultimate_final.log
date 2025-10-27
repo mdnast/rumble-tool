@@ -1,0 +1,1111 @@
+2025-10-25 15:45:58,549 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:45:58,549 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 15:46:02,940 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:46:05,733 - ERROR - [DRIVER] Failed to initialize: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+	GetHandleVerifier [0x0xfffe43+66515]
+	GetHandleVerifier [0x0xfffe84+66580]
+	(No symbol) [0x0xdedc48]
+	(No symbol) [0x0xe16c58]
+	(No symbol) [0x0xe18850]
+	(No symbol) [0x0xe12e46]
+	(No symbol) [0x0xe658e2]
+	(No symbol) [0x0xe6529f]
+	(No symbol) [0x0xe66b00]
+	(No symbol) [0x0xe668fa]
+	(No symbol) [0x0xe5afc6]
+	(No symbol) [0x0xe2c2ca]
+	(No symbol) [0x0xe2d154]
+	GetHandleVerifier [0x0x1257353+2521315]
+	GetHandleVerifier [0x0x12522d3+2500707]
+	GetHandleVerifier [0x0x1027c94+229924]
+	GetHandleVerifier [0x0x10181f8+165768]
+	GetHandleVerifier [0x0x101ecad+193085]
+	GetHandleVerifier [0x0x1008158+100072]
+	GetHandleVerifier [0x0x10082f0+100480]
+	GetHandleVerifier [0x0xff25aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 15:46:24,405 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:46:24,405 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 15:46:28,701 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:46:31,239 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 15:46:31,243 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 15:46:31,245 - INFO - [STEALTH] Injected: chrome
+2025-10-25 15:46:31,247 - INFO - [STEALTH] Injected: permissions
+2025-10-25 15:46:31,249 - INFO - [STEALTH] Injected: plugins
+2025-10-25 15:46:31,252 - INFO - [STEALTH] Injected: languages
+2025-10-25 15:46:31,253 - INFO - [STEALTH] Injected: canvas
+2025-10-25 15:46:31,255 - INFO - [STEALTH] Injected: webgl
+2025-10-25 15:46:31,257 - INFO - [STEALTH] Injected: battery
+2025-10-25 15:46:31,259 - INFO - [STEALTH] Injected: connection
+2025-10-25 15:46:31,261 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 15:46:31,263 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 15:46:31,263 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 15:46:31,263 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 15:46:31,263 - INFO - ============================================================
+2025-10-25 15:46:31,263 - INFO - [ATTEMPT 1/1] Starting @ 15:46:31
+2025-10-25 15:46:31,263 - INFO - ============================================================
+2025-10-25 15:46:31,263 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:46:34,329 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:46:36,950 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761381996.png
+2025-10-25 15:46:46,994 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:46:48,563 - INFO - [USER] z3ogw826m0h.3117@outlook.com
+2025-10-25 15:46:48,563 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 15:46:54,122 - INFO - [FORM] Email: z3ogw826m0h.3117@outlook.com
+2025-10-25 15:46:58,817 - INFO - [FORM] Username: z3ogw826m0h36
+2025-10-25 15:46:59,538 - INFO - [FORM] Gender: male
+2025-10-25 15:47:00,989 - INFO - [FORM] Month: January
+2025-10-25 15:47:01,593 - INFO - [FORM] Day: 13
+2025-10-25 15:47:02,297 - INFO - [FORM] Year: 1999
+2025-10-25 15:47:03,001 - INFO - [FORM] Country: United States
+2025-10-25 15:47:04,569 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 15:47:04,796 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761382024.png
+2025-10-25 15:47:14,852 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:47:16,140 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:47:17,650 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 15:47:18,586 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 15:47:21,060 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 15:47:21,086 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 15:47:24,263 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761382044.png
+2025-10-25 15:47:34,303 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:47:34,303 - INFO - [WAIT] Waiting up to 30s for result...
+2025-10-25 15:48:14,100 - ERROR - [ERROR] Attempt 1 crashed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main_ultimate_final.py", line 626, in run
+    result = self.wait_for_result(timeout=30)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\python\main_ultimate_final.py", line 531, in wait_for_result
+    wait.until(
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 92, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 494, in any_of_condition
+    result = expected_condition(driver)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 80, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 740, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 344, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 300, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 321, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-25 15:48:18,293 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A92F9D60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b3b115833dfcb1508f41972adc94492f/screenshot
+2025-10-25 15:48:22,371 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A92FADE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b3b115833dfcb1508f41972adc94492f/screenshot
+2025-10-25 15:48:26,443 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A92FBE60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/b3b115833dfcb1508f41972adc94492f/screenshot
+2025-10-25 15:48:30,528 - ERROR - [SCREENSHOT] Error: HTTPConnectionPool(host='localhost', port=51739): Max retries exceeded with url: /session/b3b115833dfcb1508f41972adc94492f/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000232A989C050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 15:48:30,529 - INFO - ============================================================
+2025-10-25 15:48:30,529 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 15:48:30,529 - INFO - ============================================================
+2025-10-25 15:48:30,529 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 15:48:40,530 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:48:40,714 - INFO - [CLOSE] Browser closed
+2025-10-25 15:49:23,502 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:49:23,503 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 15:49:25,658 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:49:28,213 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 15:49:28,217 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 15:49:28,219 - INFO - [STEALTH] Injected: chrome
+2025-10-25 15:49:28,222 - INFO - [STEALTH] Injected: permissions
+2025-10-25 15:49:28,224 - INFO - [STEALTH] Injected: plugins
+2025-10-25 15:49:28,226 - INFO - [STEALTH] Injected: languages
+2025-10-25 15:49:28,227 - INFO - [STEALTH] Injected: canvas
+2025-10-25 15:49:28,229 - INFO - [STEALTH] Injected: webgl
+2025-10-25 15:49:28,231 - INFO - [STEALTH] Injected: battery
+2025-10-25 15:49:28,233 - INFO - [STEALTH] Injected: connection
+2025-10-25 15:49:28,236 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 15:49:28,238 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 15:49:28,238 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 15:49:28,239 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 15:49:28,239 - INFO - ============================================================
+2025-10-25 15:49:28,239 - INFO - [ATTEMPT 1/1] Starting @ 15:49:28
+2025-10-25 15:49:28,239 - INFO - ============================================================
+2025-10-25 15:49:28,239 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:49:32,323 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:49:34,772 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761382174.png
+2025-10-25 15:49:44,822 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:49:46,345 - INFO - [USER] h02g4u2fbcu.3647@outlook.com
+2025-10-25 15:49:46,345 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 15:49:51,397 - INFO - [FORM] Email: h02g4u2fbcu.3647@outlook.com
+2025-10-25 15:50:23,313 - INFO - [FORM] Month: June
+2025-10-25 15:50:24,155 - INFO - [FORM] Day: 11
+2025-10-25 15:50:25,257 - INFO - [FORM] Year: 2005
+2025-10-25 15:50:27,740 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 15:50:27,986 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761382227.png
+2025-10-25 15:50:37,991 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:50:39,462 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:50:50,003 - INFO - [SUBMIT] No terms checkbox found
+2025-10-25 15:50:50,029 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 15:50:52,254 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 15:50:52,270 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 15:50:54,704 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761382254.png
+2025-10-25 15:51:04,718 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:51:04,718 - INFO - [WAIT] Waiting up to 30s for result...
+2025-10-25 15:51:45,425 - ERROR - [TIMEOUT] No response after 30s
+2025-10-25 15:51:45,430 - INFO - [INFO] Current URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-25 15:51:45,679 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761382305.png
+2025-10-25 15:51:45,679 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 15:51:45,679 - INFO - ============================================================
+2025-10-25 15:51:45,679 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 15:51:45,679 - INFO - ============================================================
+2025-10-25 15:51:45,680 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 15:51:55,681 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:51:56,057 - INFO - [CLOSE] Browser closed
+2025-10-25 15:53:21,245 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:53:21,245 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 15:53:26,243 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:53:28,911 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 15:53:28,915 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 15:53:28,917 - INFO - [STEALTH] Injected: chrome
+2025-10-25 15:53:28,919 - INFO - [STEALTH] Injected: permissions
+2025-10-25 15:53:28,921 - INFO - [STEALTH] Injected: plugins
+2025-10-25 15:53:28,923 - INFO - [STEALTH] Injected: languages
+2025-10-25 15:53:28,925 - INFO - [STEALTH] Injected: canvas
+2025-10-25 15:53:28,927 - INFO - [STEALTH] Injected: webgl
+2025-10-25 15:53:28,928 - INFO - [STEALTH] Injected: battery
+2025-10-25 15:53:28,931 - INFO - [STEALTH] Injected: connection
+2025-10-25 15:53:28,933 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 15:53:28,934 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 15:53:28,934 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 15:53:28,935 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 15:53:28,935 - INFO - ============================================================
+2025-10-25 15:53:28,935 - INFO - [ATTEMPT 1/1] Starting @ 15:53:28
+2025-10-25 15:53:28,935 - INFO - ============================================================
+2025-10-25 15:53:28,935 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:53:31,619 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:53:35,149 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761382414.png
+2025-10-25 15:53:45,210 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:53:46,460 - INFO - [USER] qavg6mc0vhf.6289@outlook.com
+2025-10-25 15:53:46,460 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 15:53:51,419 - INFO - [FORM] Email: qavg6mc0vhf.6289@outlook.com
+2025-10-25 15:54:23,701 - INFO - [FORM] Month: March
+2025-10-25 15:54:24,811 - INFO - [FORM] Day: 12
+2025-10-25 15:54:25,733 - INFO - [FORM] Year: 1995
+2025-10-25 15:54:27,816 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 15:54:28,061 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761382467.png
+2025-10-25 15:54:38,110 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:54:39,598 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:54:50,154 - INFO - [SUBMIT] No terms checkbox found
+2025-10-25 15:54:50,179 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 15:54:52,441 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 15:54:52,459 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 15:54:55,605 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761382495.png
+2025-10-25 15:55:05,619 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:55:05,619 - INFO - [WAIT] Waiting up to 30s for result...
+2025-10-25 15:55:16,792 - ERROR - [ERROR] Attempt 1 crashed: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+Traceback (most recent call last):
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main_ultimate_final.py", line 667, in run
+    result = self.wait_for_result(timeout=30)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\python\main_ultimate_final.py", line 572, in wait_for_result
+    wait.until(
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\wait.py", line 92, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 494, in any_of_condition
+    result = expected_condition(driver)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 80, in _predicate
+    return driver.find_element(*locator)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 740, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 344, in execute
+    response = self.command_executor.execute(driver_command, params)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 300, in execute
+    return self._request(command_info[0], url, body=data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\selenium\webdriver\remote\remote_connection.py", line 321, in _request
+    response = self._conn.request(method, url, body=body, headers=headers)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\_request_methods.py", line 143, in request
+    return self.request_encode_body(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\_request_methods.py", line 278, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\poolmanager.py", line 459, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\util\util.py", line 38, in reraise
+    raise value.with_traceback(tb)
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\rumble-tool\.venv\Lib\site-packages\urllib3\connection.py", line 565, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 1430, in getresponse
+    response.begin()
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.ProtocolError: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-25 15:55:20,862 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CE21D3920>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/845c37533b76e04126af4794a70754a3/screenshot
+2025-10-25 15:55:24,938 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CE11F9640>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/845c37533b76e04126af4794a70754a3/screenshot
+2025-10-25 15:55:29,020 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CE2208B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/845c37533b76e04126af4794a70754a3/screenshot
+2025-10-25 15:55:33,115 - ERROR - [SCREENSHOT] Error: HTTPConnectionPool(host='localhost', port=61539): Max retries exceeded with url: /session/845c37533b76e04126af4794a70754a3/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015CE2208D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 15:55:33,115 - INFO - ============================================================
+2025-10-25 15:55:33,115 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 15:55:33,115 - INFO - ============================================================
+2025-10-25 15:55:33,115 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 15:55:43,116 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:55:43,285 - INFO - [CLOSE] Browser closed
+2025-10-25 15:56:41,634 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:56:41,634 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 15:56:43,338 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:56:45,918 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 15:56:45,921 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 15:56:45,924 - INFO - [STEALTH] Injected: chrome
+2025-10-25 15:56:45,925 - INFO - [STEALTH] Injected: permissions
+2025-10-25 15:56:45,928 - INFO - [STEALTH] Injected: plugins
+2025-10-25 15:56:45,930 - INFO - [STEALTH] Injected: languages
+2025-10-25 15:56:45,931 - INFO - [STEALTH] Injected: canvas
+2025-10-25 15:56:45,933 - INFO - [STEALTH] Injected: webgl
+2025-10-25 15:56:45,935 - INFO - [STEALTH] Injected: battery
+2025-10-25 15:56:45,937 - INFO - [STEALTH] Injected: connection
+2025-10-25 15:56:45,939 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 15:56:45,940 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 15:56:45,940 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 15:56:45,942 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 15:56:45,942 - INFO - ============================================================
+2025-10-25 15:56:45,942 - INFO - [ATTEMPT 1/1] Starting @ 15:56:45
+2025-10-25 15:56:45,942 - INFO - ============================================================
+2025-10-25 15:56:45,942 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:56:49,762 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:56:53,815 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761382613.png
+2025-10-25 15:57:03,877 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:57:05,555 - INFO - [USER] mbw1hrpq0z4.6211@outlook.com
+2025-10-25 15:57:05,555 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 15:57:10,944 - INFO - [FORM] Email: mbw1hrpq0z4.6211@outlook.com
+2025-10-25 15:57:15,797 - INFO - [FORM] Username: mbw1hrpq0z475
+2025-10-25 15:57:17,525 - INFO - [FORM] Gender: male
+2025-10-25 15:57:19,762 - INFO - [FORM] Month: December
+2025-10-25 15:57:20,849 - INFO - [FORM] Day: 31
+2025-10-25 15:57:22,059 - INFO - [FORM] Year: 1994
+2025-10-25 15:57:24,899 - INFO - [FORM] Country: United States
+2025-10-25 15:57:26,439 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 15:57:26,693 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761382646.png
+2025-10-25 15:57:36,741 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:57:37,989 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 15:57:39,652 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 15:57:40,209 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 15:57:42,834 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 15:57:42,862 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 15:57:46,048 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761382665.png
+2025-10-25 15:57:55,348 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-25 15:57:55,348 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 15:57:59,406 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E980E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dd3412f82021bcaeab128d0bd4a7541b/url
+2025-10-25 15:58:03,476 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E981A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dd3412f82021bcaeab128d0bd4a7541b/url
+2025-10-25 15:58:07,540 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E98350>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dd3412f82021bcaeab128d0bd4a7541b/url
+2025-10-25 15:58:11,614 - WARNING - [WARN] Error checking page state: HTTPConnectionPool(host='localhost', port=52008): Max retries exceeded with url: /session/dd3412f82021bcaeab128d0bd4a7541b/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E984D0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 15:58:15,682 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E986B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dd3412f82021bcaeab128d0bd4a7541b/screenshot
+2025-10-25 15:58:19,756 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E98830>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dd3412f82021bcaeab128d0bd4a7541b/screenshot
+2025-10-25 15:58:23,835 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E989E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/dd3412f82021bcaeab128d0bd4a7541b/screenshot
+2025-10-25 15:58:27,919 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=52008): Max retries exceeded with url: /session/dd3412f82021bcaeab128d0bd4a7541b/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023A04E98B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 15:58:27,919 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 15:58:27,919 - INFO - ============================================================
+2025-10-25 15:58:27,919 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 15:58:27,919 - INFO - ============================================================
+2025-10-25 15:58:27,919 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 15:58:37,920 - INFO - [CLOSE] Closing browser...
+2025-10-25 15:58:38,073 - INFO - [CLOSE] Browser closed
+2025-10-25 15:59:16,853 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 15:59:16,854 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 15:59:20,622 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 15:59:23,222 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 15:59:23,226 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 15:59:23,228 - INFO - [STEALTH] Injected: chrome
+2025-10-25 15:59:23,230 - INFO - [STEALTH] Injected: permissions
+2025-10-25 15:59:23,232 - INFO - [STEALTH] Injected: plugins
+2025-10-25 15:59:23,234 - INFO - [STEALTH] Injected: languages
+2025-10-25 15:59:23,236 - INFO - [STEALTH] Injected: canvas
+2025-10-25 15:59:23,238 - INFO - [STEALTH] Injected: webgl
+2025-10-25 15:59:23,240 - INFO - [STEALTH] Injected: battery
+2025-10-25 15:59:23,242 - INFO - [STEALTH] Injected: connection
+2025-10-25 15:59:23,243 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 15:59:23,245 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 15:59:23,245 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 15:59:23,246 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 15:59:23,246 - INFO - ============================================================
+2025-10-25 15:59:23,246 - INFO - [ATTEMPT 1/1] Starting @ 15:59:23
+2025-10-25 15:59:23,246 - INFO - ============================================================
+2025-10-25 15:59:23,246 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 15:59:27,507 - INFO - [NAV] Page loaded successfully
+2025-10-25 15:59:30,308 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761382770.png
+2025-10-25 15:59:40,366 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 15:59:41,825 - INFO - [USER] s8kkx8kwger.1826@outlook.com
+2025-10-25 15:59:41,825 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 15:59:47,389 - INFO - [FORM] Email: s8kkx8kwger.1826@outlook.com
+2025-10-25 15:59:51,800 - INFO - [FORM] Username: s8kkx8kwger53
+2025-10-25 15:59:53,033 - INFO - [FORM] Gender: male
+2025-10-25 15:59:55,650 - INFO - [FORM] Month: January
+2025-10-25 15:59:56,735 - INFO - [FORM] Day: 11
+2025-10-25 15:59:57,753 - INFO - [FORM] Year: 1997
+2025-10-25 16:00:00,733 - INFO - [FORM] Country: United States (value=1)
+2025-10-25 16:00:02,445 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 16:00:02,670 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761382802.png
+2025-10-25 16:00:12,675 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:00:13,888 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 16:00:15,091 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 16:00:15,877 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 16:00:17,771 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 16:00:17,795 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 16:00:20,096 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761382819.png
+2025-10-25 16:00:30,103 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:00:30,103 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 16:00:30,117 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-25 16:00:30,350 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761382830.png
+2025-10-25 16:00:30,350 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 16:00:30,350 - INFO - ============================================================
+2025-10-25 16:00:30,350 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:00:30,350 - INFO - ============================================================
+2025-10-25 16:00:30,351 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:00:40,352 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:00:40,676 - INFO - [CLOSE] Browser closed
+2025-10-25 16:03:02,353 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:03:02,353 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:03:04,500 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:03:07,239 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:03:07,243 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:03:07,245 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:03:07,247 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:03:07,250 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:03:07,251 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:03:07,253 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:03:07,254 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:03:07,257 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:03:07,259 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:03:07,261 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:03:07,262 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:03:07,262 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:03:07,263 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:03:07,263 - INFO - ============================================================
+2025-10-25 16:03:07,263 - INFO - [ATTEMPT 1/1] Starting @ 16:03:07
+2025-10-25 16:03:07,263 - INFO - ============================================================
+2025-10-25 16:03:07,263 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:03:10,635 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:03:13,562 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761382993.png
+2025-10-25 16:03:23,588 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:03:25,357 - INFO - [USER] ay8evut0xif.9860@outlook.com
+2025-10-25 16:03:25,357 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:03:31,021 - INFO - [FORM] Email: ay8evut0xif.9860@outlook.com
+2025-10-25 16:03:34,876 - INFO - [FORM] Username: ay8evut0xif45
+2025-10-25 16:03:36,753 - INFO - [FORM] Gender: female
+2025-10-25 16:03:38,917 - INFO - [FORM] Month: January
+2025-10-25 16:03:40,071 - INFO - [FORM] Day: 4
+2025-10-25 16:03:41,013 - INFO - [FORM] Year: 2004
+2025-10-25 16:03:44,238 - INFO - [FORM] Country: United States (by text)
+2025-10-25 16:03:45,976 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 16:03:46,197 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761383025.png
+2025-10-25 16:03:56,240 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:03:57,942 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 16:03:59,299 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 16:04:00,063 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 16:04:01,947 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 16:04:01,972 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 16:04:04,900 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761383044.png
+2025-10-25 16:04:11,892 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-25 16:04:11,892 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 16:04:15,981 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91C1A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1d76c95366c09ea027ccb01204d58990/url
+2025-10-25 16:04:20,064 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91C560>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1d76c95366c09ea027ccb01204d58990/url
+2025-10-25 16:04:24,145 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91C590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1d76c95366c09ea027ccb01204d58990/url
+2025-10-25 16:04:28,220 - WARNING - [WARN] Error checking page state: HTTPConnectionPool(host='localhost', port=54009): Max retries exceeded with url: /session/1d76c95366c09ea027ccb01204d58990/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91C740>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 16:04:32,288 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91C920>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1d76c95366c09ea027ccb01204d58990/screenshot
+2025-10-25 16:04:36,365 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91CAA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1d76c95366c09ea027ccb01204d58990/screenshot
+2025-10-25 16:04:40,435 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91CC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/1d76c95366c09ea027ccb01204d58990/screenshot
+2025-10-25 16:04:44,517 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=54009): Max retries exceeded with url: /session/1d76c95366c09ea027ccb01204d58990/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002735E91CE00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 16:04:44,517 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 16:04:44,517 - INFO - ============================================================
+2025-10-25 16:04:44,517 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:04:44,517 - INFO - ============================================================
+2025-10-25 16:04:44,517 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:04:54,518 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:04:54,665 - INFO - [CLOSE] Browser closed
+2025-10-25 16:05:41,690 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:05:41,690 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:05:43,654 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:05:46,233 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:05:46,236 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:05:46,239 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:05:46,240 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:05:46,242 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:05:46,245 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:05:46,247 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:05:46,248 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:05:46,250 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:05:46,251 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:05:46,254 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:05:46,255 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:05:46,255 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:05:46,256 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:05:46,256 - INFO - ============================================================
+2025-10-25 16:05:46,256 - INFO - [ATTEMPT 1/1] Starting @ 16:05:46
+2025-10-25 16:05:46,256 - INFO - ============================================================
+2025-10-25 16:05:46,256 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:05:49,170 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:05:52,726 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761383152.png
+2025-10-25 16:06:02,780 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:06:04,372 - INFO - [USER] qbzm7qybdwf.6542@outlook.com
+2025-10-25 16:06:04,372 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:06:09,630 - INFO - [FORM] Email: qbzm7qybdwf.6542@outlook.com
+2025-10-25 16:06:41,562 - INFO - [FORM] Month: June
+2025-10-25 16:06:42,506 - INFO - [FORM] Day: 16
+2025-10-25 16:06:43,861 - INFO - [FORM] Year: 2002
+2025-10-25 16:06:46,052 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 16:06:46,287 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761383206.png
+2025-10-25 16:06:56,337 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:06:57,460 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 16:07:08,006 - INFO - [SUBMIT] No terms checkbox found
+2025-10-25 16:07:08,031 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 16:07:10,637 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 16:07:10,659 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 16:07:13,439 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761383233.png
+2025-10-25 16:07:25,706 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-25 16:07:25,706 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 16:07:29,799 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA15E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/56c3a736822744b807030209d725f138/url
+2025-10-25 16:07:33,890 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA08F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/56c3a736822744b807030209d725f138/url
+2025-10-25 16:07:37,992 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA10A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/56c3a736822744b807030209d725f138/url
+2025-10-25 16:07:42,082 - WARNING - [WARN] Error checking page state: HTTPConnectionPool(host='localhost', port=63676): Max retries exceeded with url: /session/56c3a736822744b807030209d725f138/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA1850>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 16:07:46,182 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA1A00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/56c3a736822744b807030209d725f138/screenshot
+2025-10-25 16:07:48,680 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:07:48,680 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:07:50,257 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA1B80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/56c3a736822744b807030209d725f138/screenshot
+2025-10-25 16:07:50,430 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:07:53,008 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:07:53,012 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:07:53,014 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:07:53,016 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:07:53,018 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:07:53,020 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:07:53,023 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:07:53,025 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:07:53,027 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:07:53,029 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:07:53,031 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:07:53,033 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:07:53,034 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:07:53,034 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:07:53,034 - INFO - ============================================================
+2025-10-25 16:07:53,035 - INFO - [ATTEMPT 1/1] Starting @ 16:07:53
+2025-10-25 16:07:53,035 - INFO - ============================================================
+2025-10-25 16:07:53,035 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:07:54,338 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA1D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/56c3a736822744b807030209d725f138/screenshot
+2025-10-25 16:07:58,420 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=63676): Max retries exceeded with url: /session/56c3a736822744b807030209d725f138/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001D01BDA1EE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 16:07:58,420 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 16:07:58,420 - INFO - ============================================================
+2025-10-25 16:07:58,420 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:07:58,420 - INFO - ============================================================
+2025-10-25 16:07:58,421 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:08:08,421 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:08:08,613 - INFO - [CLOSE] Browser closed
+2025-10-25 16:08:16,549 - ERROR - [NAV] Failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6dc48]
+	(No symbol) [0x0xab8704]
+	(No symbol) [0x0xab8aab]
+	(No symbol) [0x0xaff482]
+	(No symbol) [0x0xadb214]
+	(No symbol) [0x0xafcba7]
+	(No symbol) [0x0xadafc6]
+	(No symbol) [0x0xaac2ca]
+	(No symbol) [0x0xaad154]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	GetHandleVerifier [0x0xc88158+100072]
+	GetHandleVerifier [0x0xc882f0+100480]
+	GetHandleVerifier [0x0xc725aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:08:16,549 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-25 16:08:16,549 - INFO - ============================================================
+2025-10-25 16:08:16,549 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:08:16,549 - INFO - ============================================================
+2025-10-25 16:08:16,549 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:08:21,194 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:08:21,194 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:08:21,812 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:08:21,818 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:08:21,822 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:08:21,825 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:08:21,831 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:08:21,834 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:08:21,837 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:08:21,842 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:08:21,845 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:08:21,848 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:08:21,850 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:08:21,853 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:08:21,853 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:08:21,853 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:08:21,853 - INFO - ============================================================
+2025-10-25 16:08:21,855 - INFO - [ATTEMPT 1/1] Starting @ 16:08:21
+2025-10-25 16:08:21,855 - INFO - ============================================================
+2025-10-25 16:08:21,855 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:08:25,681 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:08:26,551 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:08:26,930 - INFO - [CLOSE] Browser closed
+2025-10-25 16:08:28,824 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761383308.png
+2025-10-25 16:08:38,857 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:08:40,432 - INFO - [USER] jimtnpckulx.9239@outlook.com
+2025-10-25 16:08:40,432 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:08:45,684 - INFO - [FORM] Email: jimtnpckulx.9239@outlook.com
+2025-10-25 16:08:50,000 - INFO - [FORM] Username: jimtnpckulx56
+2025-10-25 16:08:52,988 - INFO - [FORM] Gender: female (verified)
+2025-10-25 16:08:55,268 - INFO - [FORM] Month: February
+2025-10-25 16:08:56,641 - INFO - [FORM] Day: 18
+2025-10-25 16:08:57,819 - INFO - [FORM] Year: 2001
+2025-10-25 16:09:01,874 - INFO - [FORM] Country: United States
+2025-10-25 16:09:02,332 - ERROR - [FORM] Country selection error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6dc48]
+	(No symbol) [0x0xa5ce80]
+	(No symbol) [0x0xa7b81b]
+	(No symbol) [0x0xae1c25]
+	(No symbol) [0x0xafc4d9]
+	(No symbol) [0x0xadafc6]
+	(No symbol) [0x0xaac2ca]
+	(No symbol) [0x0xaad154]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	GetHandleVerifier [0x0xc88158+100072]
+	GetHandleVerifier [0x0xc882f0+100480]
+	GetHandleVerifier [0x0xc725aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:09:02,334 - WARNING - [SCREENSHOT] Failed (browser may have crashed): Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6da6b]
+	(No symbol) [0x0xaab5ab]
+	(No symbol) [0x0xadb086]
+	(No symbol) [0x0xad667c]
+	(No symbol) [0x0xad5bf3]
+	(No symbol) [0x0xa3e72d]
+	(No symbol) [0x0xa3ecae]
+	(No symbol) [0x0xa3f14d]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	(No symbol) [0x0xa3e3e3]
+	(No symbol) [0x0xa3db60]
+	GetHandleVerifier [0x0x101c20f+3852191]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:09:02,335 - ERROR - [FORM] Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6da6b]
+	(No symbol) [0x0xaab5ab]
+	(No symbol) [0x0xadb086]
+	(No symbol) [0x0xad667c]
+	(No symbol) [0x0xad5bf3]
+	(No symbol) [0x0xa3e72d]
+	(No symbol) [0x0xa3ecae]
+	(No symbol) [0x0xa3f14d]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	(No symbol) [0x0xa3e3e3]
+	(No symbol) [0x0xa3db60]
+	GetHandleVerifier [0x0x101c20f+3852191]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:09:02,335 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-25 16:09:02,336 - WARNING - [SCREENSHOT] Failed (browser may have crashed): Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6da6b]
+	(No symbol) [0x0xaab5ab]
+	(No symbol) [0x0xadb086]
+	(No symbol) [0x0xad667c]
+	(No symbol) [0x0xad5bf3]
+	(No symbol) [0x0xa3e72d]
+	(No symbol) [0x0xa3ecae]
+	(No symbol) [0x0xa3f14d]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	(No symbol) [0x0xa3e3e3]
+	(No symbol) [0x0xa3db60]
+	GetHandleVerifier [0x0x101c20f+3852191]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:09:02,336 - INFO - ============================================================
+2025-10-25 16:09:02,336 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:09:02,336 - INFO - ============================================================
+2025-10-25 16:09:02,337 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:09:12,337 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:09:12,488 - INFO - [CLOSE] Browser closed
+2025-10-25 16:10:33,056 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:10:33,057 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:10:37,770 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:10:40,381 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:10:40,384 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:10:40,387 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:10:40,389 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:10:40,391 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:10:40,393 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:10:40,394 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:10:40,397 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:10:40,399 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:10:40,401 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:10:40,404 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:10:40,406 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:10:40,408 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:10:40,408 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:10:40,408 - INFO - ============================================================
+2025-10-25 16:10:40,408 - INFO - [ATTEMPT 1/1] Starting @ 16:10:40
+2025-10-25 16:10:40,409 - INFO - ============================================================
+2025-10-25 16:10:40,409 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:10:43,909 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:10:46,830 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761383446.png
+2025-10-25 16:10:56,846 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:10:58,069 - INFO - [USER] jqb1c70jf1s.7510@outlook.com
+2025-10-25 16:10:58,069 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:11:03,429 - INFO - [FORM] Email: jqb1c70jf1s.7510@outlook.com
+2025-10-25 16:11:07,834 - INFO - [FORM] Username: jqb1c70jf1s97
+2025-10-25 16:11:10,576 - INFO - [FORM] Gender: female (verified)
+2025-10-25 16:11:12,592 - INFO - [FORM] Month: October
+2025-10-25 16:11:13,893 - INFO - [FORM] Day: 3
+2025-10-25 16:11:14,840 - INFO - [FORM] Year: 1998
+2025-10-25 16:11:18,543 - INFO - [FORM] Country: United States
+2025-10-25 16:11:20,894 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 16:11:21,125 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761383480.png
+2025-10-25 16:11:31,178 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:11:32,822 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 16:11:34,350 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 16:11:35,268 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 16:11:37,409 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 16:11:37,439 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 16:11:40,343 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761383500.png
+2025-10-25 16:11:50,379 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:11:50,379 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 16:12:31,024 - ERROR - [TIMEOUT] No response after 40s
+2025-10-25 16:12:31,029 - INFO - [INFO] Final URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-25 16:12:31,267 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761383551.png
+2025-10-25 16:12:31,267 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 16:12:31,267 - INFO - ============================================================
+2025-10-25 16:12:31,267 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:12:31,267 - INFO - ============================================================
+2025-10-25 16:12:31,267 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:12:41,268 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:12:41,587 - INFO - [CLOSE] Browser closed
+2025-10-25 16:13:44,160 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:13:44,160 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:13:46,204 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:13:48,840 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:13:48,844 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:13:48,846 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:13:48,848 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:13:48,850 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:13:48,852 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:13:48,853 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:13:48,856 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:13:48,859 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:13:48,860 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:13:48,863 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:13:48,865 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:13:48,865 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:13:48,865 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:13:48,865 - INFO - ============================================================
+2025-10-25 16:13:48,865 - INFO - [ATTEMPT 1/1] Starting @ 16:13:48
+2025-10-25 16:13:48,865 - INFO - ============================================================
+2025-10-25 16:13:48,865 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:13:51,870 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:13:54,830 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761383634.png
+2025-10-25 16:14:00,475 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-25 16:14:01,743 - INFO - [USER] 9jmoivqs4oj.7280@outlook.com
+2025-10-25 16:14:01,743 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:14:05,830 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D58668380>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/96a6dac371b3b76e770c0c53d5a4a6d7/element
+2025-10-25 16:14:09,915 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D586680B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/96a6dac371b3b76e770c0c53d5a4a6d7/element
+2025-10-25 16:14:13,998 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D58668B60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/96a6dac371b3b76e770c0c53d5a4a6d7/element
+2025-10-25 16:14:18,081 - ERROR - [FORM] Error: HTTPConnectionPool(host='localhost', port=49973): Max retries exceeded with url: /session/96a6dac371b3b76e770c0c53d5a4a6d7/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D58668DA0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 16:14:18,081 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-25 16:14:22,166 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D58668FB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/96a6dac371b3b76e770c0c53d5a4a6d7/screenshot
+2025-10-25 16:14:26,245 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D58669190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/96a6dac371b3b76e770c0c53d5a4a6d7/screenshot
+2025-10-25 16:14:29,764 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:14:29,764 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:14:30,326 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D58669340>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/96a6dac371b3b76e770c0c53d5a4a6d7/screenshot
+2025-10-25 16:14:33,655 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:14:34,384 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=49973): Max retries exceeded with url: /session/96a6dac371b3b76e770c0c53d5a4a6d7/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025D586694F0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-25 16:14:34,384 - INFO - ============================================================
+2025-10-25 16:14:34,384 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:14:34,384 - INFO - ============================================================
+2025-10-25 16:14:34,384 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:14:36,204 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:14:36,209 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:14:36,211 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:14:36,214 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:14:36,216 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:14:36,219 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:14:36,221 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:14:36,223 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:14:36,226 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:14:36,229 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:14:36,231 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:14:36,235 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:14:36,235 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:14:36,236 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:14:36,236 - INFO - ============================================================
+2025-10-25 16:14:36,236 - INFO - [ATTEMPT 1/1] Starting @ 16:14:36
+2025-10-25 16:14:36,236 - INFO - ============================================================
+2025-10-25 16:14:36,236 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:14:38,883 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:14:40,359 - ERROR - [NAV] Failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0x31fe43+66515]
+	GetHandleVerifier [0x0x31fe84+66580]
+	(No symbol) [0x0x10dc48]
+	(No symbol) [0x0xfce80]
+	(No symbol) [0x0x11b81b]
+	(No symbol) [0x0x181c25]
+	(No symbol) [0x0x19c4d9]
+	(No symbol) [0x0x17afc6]
+	(No symbol) [0x0x14c2ca]
+	(No symbol) [0x0x14d154]
+	GetHandleVerifier [0x0x577353+2521315]
+	GetHandleVerifier [0x0x5722d3+2500707]
+	GetHandleVerifier [0x0x347c94+229924]
+	GetHandleVerifier [0x0x3381f8+165768]
+	GetHandleVerifier [0x0x33ecad+193085]
+	GetHandleVerifier [0x0x328158+100072]
+	GetHandleVerifier [0x0x3282f0+100480]
+	GetHandleVerifier [0x0x3125aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+	(No symbol) [0x0]
+
+2025-10-25 16:14:40,360 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-25 16:14:40,360 - INFO - ============================================================
+2025-10-25 16:14:40,360 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:14:40,360 - INFO - ============================================================
+2025-10-25 16:14:40,361 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:14:44,385 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:14:44,518 - INFO - [CLOSE] Browser closed
+2025-10-25 16:14:50,362 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:14:50,425 - INFO - [CLOSE] Browser closed
+2025-10-25 16:14:57,284 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:14:57,285 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:14:59,015 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:15:01,546 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:15:01,550 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:15:01,553 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:15:01,555 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:15:01,557 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:15:01,559 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:15:01,561 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:15:01,563 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:15:01,565 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:15:01,567 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:15:01,570 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:15:01,572 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:15:01,572 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:15:01,572 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:15:01,573 - INFO - ============================================================
+2025-10-25 16:15:01,573 - INFO - [ATTEMPT 1/1] Starting @ 16:15:01
+2025-10-25 16:15:01,573 - INFO - ============================================================
+2025-10-25 16:15:01,573 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:15:05,380 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:15:09,251 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761383709.png
+2025-10-25 16:15:19,294 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:15:20,512 - INFO - [USER] 6s2b5hvbkge.4783@outlook.com
+2025-10-25 16:15:20,512 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:15:25,999 - INFO - [FORM] Email: 6s2b5hvbkge.4783@outlook.com
+2025-10-25 16:15:30,253 - INFO - [FORM] Username: 6s2b5hvbkge72
+2025-10-25 16:15:32,696 - INFO - [FORM] Gender: female (keyboard)
+2025-10-25 16:15:34,903 - INFO - [FORM] Month: April
+2025-10-25 16:15:36,090 - INFO - [FORM] Day: 15
+2025-10-25 16:15:37,152 - INFO - [FORM] Year: 2003
+2025-10-25 16:15:41,086 - INFO - [FORM] Country: United States (keyboard)
+2025-10-25 16:15:42,513 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 16:15:42,735 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761383742.png
+2025-10-25 16:15:52,748 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:15:53,750 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 16:15:55,139 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 16:15:55,805 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 16:15:58,401 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 16:15:58,424 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 16:16:01,091 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761383760.png
+2025-10-25 16:16:11,136 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:16:11,136 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 16:16:11,150 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-25 16:16:11,374 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761383771.png
+2025-10-25 16:16:11,374 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 16:16:11,374 - INFO - ============================================================
+2025-10-25 16:16:11,374 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:16:11,374 - INFO - ============================================================
+2025-10-25 16:16:11,374 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:16:21,375 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:16:21,756 - INFO - [CLOSE] Browser closed
+2025-10-27 07:41:33,427 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 07:41:33,428 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 07:41:54,864 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 07:42:00,178 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 07:42:00,187 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 07:42:00,194 - INFO - [STEALTH] Injected: chrome
+2025-10-27 07:42:00,200 - INFO - [STEALTH] Injected: permissions
+2025-10-27 07:42:00,207 - INFO - [STEALTH] Injected: plugins
+2025-10-27 07:42:00,214 - INFO - [STEALTH] Injected: languages
+2025-10-27 07:42:00,222 - INFO - [STEALTH] Injected: canvas
+2025-10-27 07:42:00,230 - INFO - [STEALTH] Injected: webgl
+2025-10-27 07:42:00,237 - INFO - [STEALTH] Injected: battery
+2025-10-27 07:42:00,244 - INFO - [STEALTH] Injected: connection
+2025-10-27 07:42:00,250 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 07:42:00,257 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 07:42:00,258 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 07:42:00,261 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 07:42:00,261 - INFO - ============================================================
+2025-10-27 07:42:00,262 - INFO - [ATTEMPT 1/1] Starting @ 07:42:00
+2025-10-27 07:42:00,262 - INFO - ============================================================
+2025-10-27 07:42:00,262 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 07:42:27,837 - ERROR - [NAV] Failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xd0fe43+66515]
+	GetHandleVerifier [0x0xd0fe84+66580]
+	(No symbol) [0x0xafdc48]
+	(No symbol) [0x0xb48704]
+	(No symbol) [0x0xb48aab]
+	(No symbol) [0x0xb8f482]
+	(No symbol) [0x0xb6b214]
+	(No symbol) [0x0xb8cba7]
+	(No symbol) [0x0xb6afc6]
+	(No symbol) [0x0xb3c2ca]
+	(No symbol) [0x0xb3d154]
+	GetHandleVerifier [0x0xf67353+2521315]
+	GetHandleVerifier [0x0xf622d3+2500707]
+	GetHandleVerifier [0x0xd37c94+229924]
+	GetHandleVerifier [0x0xd281f8+165768]
+	GetHandleVerifier [0x0xd2ecad+193085]
+	GetHandleVerifier [0x0xd18158+100072]
+	GetHandleVerifier [0x0xd182f0+100480]
+	GetHandleVerifier [0x0xd025aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 07:42:27,837 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-27 07:42:27,837 - INFO - ============================================================
+2025-10-27 07:42:27,837 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 07:42:27,837 - INFO - ============================================================
+2025-10-27 07:42:27,837 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 07:42:37,841 - INFO - [CLOSE] Closing browser...
+2025-10-27 07:42:38,406 - INFO - [CLOSE] Browser closed
+2025-10-27 07:43:14,480 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 07:43:14,480 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 07:43:23,762 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 07:43:29,003 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 07:43:29,026 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 07:43:29,034 - INFO - [STEALTH] Injected: chrome
+2025-10-27 07:43:29,040 - INFO - [STEALTH] Injected: permissions
+2025-10-27 07:43:29,053 - INFO - [STEALTH] Injected: plugins
+2025-10-27 07:43:29,060 - INFO - [STEALTH] Injected: languages
+2025-10-27 07:43:29,068 - INFO - [STEALTH] Injected: canvas
+2025-10-27 07:43:29,075 - INFO - [STEALTH] Injected: webgl
+2025-10-27 07:43:29,083 - INFO - [STEALTH] Injected: battery
+2025-10-27 07:43:29,090 - INFO - [STEALTH] Injected: connection
+2025-10-27 07:43:29,098 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 07:43:29,104 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 07:43:29,104 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 07:43:29,106 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 07:43:29,107 - INFO - ============================================================
+2025-10-27 07:43:29,107 - INFO - [ATTEMPT 1/1] Starting @ 07:43:29
+2025-10-27 07:43:29,107 - INFO - ============================================================
+2025-10-27 07:43:29,109 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 07:43:58,040 - ERROR - [NAV] Failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x11ffe43+66515]
+	GetHandleVerifier [0x0x11ffe84+66580]
+	(No symbol) [0x0xfedc48]
+	(No symbol) [0x0x1038704]
+	(No symbol) [0x0x1038aab]
+	(No symbol) [0x0x107f482]
+	(No symbol) [0x0x105b214]
+	(No symbol) [0x0x107cba7]
+	(No symbol) [0x0x105afc6]
+	(No symbol) [0x0x102c2ca]
+	(No symbol) [0x0x102d154]
+	GetHandleVerifier [0x0x1457353+2521315]
+	GetHandleVerifier [0x0x14522d3+2500707]
+	GetHandleVerifier [0x0x1227c94+229924]
+	GetHandleVerifier [0x0x12181f8+165768]
+	GetHandleVerifier [0x0x121ecad+193085]
+	GetHandleVerifier [0x0x1208158+100072]
+	GetHandleVerifier [0x0x12082f0+100480]
+	GetHandleVerifier [0x0x11f25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 07:43:58,041 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-27 07:43:58,043 - INFO - ============================================================
+2025-10-27 07:43:58,043 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 07:43:58,043 - INFO - ============================================================
+2025-10-27 07:43:58,045 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 07:44:08,046 - INFO - [CLOSE] Closing browser...
+2025-10-27 07:44:08,392 - INFO - [CLOSE] Browser closed

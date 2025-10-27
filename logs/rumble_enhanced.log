@@ -1,0 +1,160 @@
+2025-10-25 16:28:36,657 - INFO - [CAPTCHA] Solver initialized with local API
+2025-10-25 16:28:36,658 - INFO - [DRIVER] Initializing ENHANCED undetected Chrome...
+2025-10-25 16:28:38,602 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:28:41,205 - INFO - ✅ Advanced fingerprint injected
+2025-10-25 16:28:41,206 - INFO - [DRIVER] ENHANCED Chrome initialized successfully
+2025-10-25 16:28:41,206 - INFO - ============================================================
+2025-10-25 16:28:41,206 - INFO - [ATTEMPT 1/1] @ 16:28:41
+2025-10-25 16:28:41,206 - INFO - ============================================================
+2025-10-25 16:28:41,206 - INFO - [WARMUP] Performing session warmup...
+2025-10-25 16:28:41,206 - INFO - [WARMUP] Starting session warmup...
+2025-10-25 16:28:41,206 - INFO - [WARMUP] Visiting homepage...
+2025-10-25 16:29:08,093 - INFO - [WARMUP] Session warmed up successfully
+2025-10-25 16:29:10,805 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:29:34,701 - ERROR - [NAV] Failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x4cfe43+66515]
+	GetHandleVerifier [0x0x4cfe84+66580]
+	(No symbol) [0x0x2bdc48]
+	(No symbol) [0x0x308704]
+	(No symbol) [0x0x308aab]
+	(No symbol) [0x0x34f482]
+	(No symbol) [0x0x32b214]
+	(No symbol) [0x0x34cba7]
+	(No symbol) [0x0x32afc6]
+	(No symbol) [0x0x2fc2ca]
+	(No symbol) [0x0x2fd154]
+	GetHandleVerifier [0x0x727353+2521315]
+	GetHandleVerifier [0x0x7222d3+2500707]
+	GetHandleVerifier [0x0x4f7c94+229924]
+	GetHandleVerifier [0x0x4e81f8+165768]
+	GetHandleVerifier [0x0x4eecad+193085]
+	GetHandleVerifier [0x0x4d8158+100072]
+	GetHandleVerifier [0x0x4d82f0+100480]
+	GetHandleVerifier [0x0x4c25aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:29:34,701 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-25 16:29:34,701 - INFO - ============================================================
+2025-10-25 16:29:34,701 - INFO - [SUMMARY] 0/1 succeeded
+2025-10-25 16:29:34,701 - INFO - ============================================================
+2025-10-25 16:29:34,701 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:29:44,703 - INFO - [CLOSE] Closing...
+2025-10-25 16:29:45,060 - INFO - [CLOSE] Closed
+2025-10-25 16:30:34,032 - INFO - [CAPTCHA] Solver initialized with local API
+2025-10-25 16:30:34,032 - INFO - [DRIVER] Initializing ENHANCED undetected Chrome...
+2025-10-25 16:30:35,787 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:30:38,384 - INFO - ✅ Advanced fingerprint injected
+2025-10-25 16:30:38,385 - INFO - [DRIVER] ENHANCED Chrome initialized successfully
+2025-10-25 16:30:38,385 - INFO - ============================================================
+2025-10-25 16:30:38,385 - INFO - [ATTEMPT 1/1] @ 16:30:38
+2025-10-25 16:30:38,385 - INFO - ============================================================
+2025-10-25 16:30:38,385 - INFO - [WARMUP] Performing session warmup...
+2025-10-25 16:30:38,385 - INFO - [WARMUP] Starting session warmup...
+2025-10-25 16:30:38,385 - INFO - [WARMUP] Visiting homepage...
+2025-10-25 16:30:48,004 - INFO - [WARMUP] Homepage loaded
+2025-10-25 16:31:03,461 - INFO - [WARMUP] Session warmed up successfully
+2025-10-25 16:31:06,357 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:31:08,688 - INFO - [NAV] Waiting for page to load...
+2025-10-25 16:31:40,267 - WARNING - [NAV] Email field not found, trying alternatives...
+2025-10-25 16:31:40,273 - INFO - [NAV] Registration page loaded
+2025-10-25 16:31:45,375 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761384705.png
+2025-10-25 16:31:55,408 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:31:56,929 - INFO - [USER] dfiduk2nk9k.2276@outlook.com
+2025-10-25 16:31:56,930 - INFO - [FORM] Filling form with ENHANCED behavior...
+2025-10-25 16:32:07,450 - ERROR - [FORM] Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x8efe43+66515]
+	GetHandleVerifier [0x0x8efe84+66580]
+	(No symbol) [0x0x6ddc48]
+	(No symbol) [0x0x728704]
+	(No symbol) [0x0x728aab]
+	(No symbol) [0x0x76f482]
+	(No symbol) [0x0x74b214]
+	(No symbol) [0x0x76cba7]
+	(No symbol) [0x0x74afc6]
+	(No symbol) [0x0x71c2ca]
+	(No symbol) [0x0x71d154]
+	GetHandleVerifier [0x0xb47353+2521315]
+	GetHandleVerifier [0x0xb422d3+2500707]
+	GetHandleVerifier [0x0x917c94+229924]
+	GetHandleVerifier [0x0x9081f8+165768]
+	GetHandleVerifier [0x0x90ecad+193085]
+	GetHandleVerifier [0x0x8f8158+100072]
+	GetHandleVerifier [0x0x8f82f0+100480]
+	GetHandleVerifier [0x0x8e25aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:32:07,450 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-25 16:32:07,727 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_02_error_1761384727.png
+2025-10-25 16:32:07,728 - INFO - ============================================================
+2025-10-25 16:32:07,728 - INFO - [SUMMARY] 0/1 succeeded
+2025-10-25 16:32:07,728 - INFO - ============================================================
+2025-10-25 16:32:07,728 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:32:17,728 - INFO - [CLOSE] Closing...
+2025-10-25 16:32:18,078 - INFO - [CLOSE] Closed
+2025-10-25 16:33:03,809 - INFO - [CAPTCHA] Solver initialized with local API
+2025-10-25 16:33:03,809 - INFO - [DRIVER] Initializing ENHANCED undetected Chrome...
+2025-10-25 16:33:09,223 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:33:11,768 - INFO - ✅ Advanced fingerprint injected
+2025-10-25 16:33:11,769 - INFO - [DRIVER] ENHANCED Chrome initialized successfully
+2025-10-25 16:33:11,769 - INFO - ============================================================
+2025-10-25 16:33:11,769 - INFO - [ATTEMPT 1/1] @ 16:33:11
+2025-10-25 16:33:11,769 - INFO - ============================================================
+2025-10-25 16:33:11,769 - INFO - [WARMUP] Performing session warmup...
+2025-10-25 16:33:11,769 - INFO - [WARMUP] Starting session warmup...
+2025-10-25 16:33:11,769 - INFO - [WARMUP] Visiting homepage...
+2025-10-25 16:33:22,044 - INFO - [WARMUP] Homepage loaded
+2025-10-25 16:33:37,978 - INFO - [WARMUP] Session warmed up successfully
+2025-10-25 16:33:40,816 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:33:42,997 - INFO - [NAV] Waiting for page to load...
+2025-10-25 16:33:43,001 - INFO - [NAV] Document ready
+2025-10-25 16:33:43,002 - INFO - [NAV] Waiting for loading spinner...
+2025-10-25 16:33:56,070 - INFO - [NAV] Loading spinner gone
+2025-10-25 16:33:56,070 - INFO - [NAV] Waiting for form elements...
+2025-10-25 16:34:27,696 - WARNING - [NAV] Email field still not found after waiting
+2025-10-25 16:34:30,697 - INFO - [NAV] Registration page loaded
+2025-10-25 16:34:33,342 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761384872.png
+2025-10-25 16:34:43,385 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:34:45,166 - INFO - [USER] eiyz6dyr93i.9327@outlook.com
+2025-10-25 16:34:45,167 - INFO - [FORM] Filling form with ENHANCED behavior...
+2025-10-25 16:34:45,174 - ERROR - [FORM] Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.108)
+Stacktrace:
+	GetHandleVerifier [0x0xa8fe43+66515]
+	GetHandleVerifier [0x0xa8fe84+66580]
+	(No symbol) [0x0x87dc48]
+	(No symbol) [0x0x86ce80]
+	(No symbol) [0x0x88b81b]
+	(No symbol) [0x0x8f1c25]
+	(No symbol) [0x0x90c4d9]
+	(No symbol) [0x0x8eafc6]
+	(No symbol) [0x0x8bc2ca]
+	(No symbol) [0x0x8bd154]
+	GetHandleVerifier [0x0xce7353+2521315]
+	GetHandleVerifier [0x0xce22d3+2500707]
+	GetHandleVerifier [0x0xab7c94+229924]
+	GetHandleVerifier [0x0xaa81f8+165768]
+	GetHandleVerifier [0x0xaaecad+193085]
+	GetHandleVerifier [0x0xa98158+100072]
+	GetHandleVerifier [0x0xa982f0+100480]
+	GetHandleVerifier [0x0xa825aa+11066]
+	BaseThreadInitThunk [0x0x76055d49+25]
+	RtlInitializeExceptionChain [0x0x7722d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7722d661+561]
+
+2025-10-25 16:34:45,174 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-25 16:34:45,179 - INFO - ============================================================
+2025-10-25 16:34:45,179 - INFO - [SUMMARY] 0/1 succeeded
+2025-10-25 16:34:45,180 - INFO - ============================================================
+2025-10-25 16:34:45,180 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:34:55,181 - INFO - [CLOSE] Closing...
+2025-10-25 16:34:55,667 - INFO - [CLOSE] Closed

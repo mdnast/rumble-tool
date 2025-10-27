@@ -1,0 +1,54 @@
+2025-10-25 16:20:32,632 - INFO - [CAPTCHA] Solver initialized
+2025-10-25 16:20:32,632 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-25 16:20:34,815 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-25 16:20:37,449 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-25 16:20:37,453 - INFO - [STEALTH] Injected: webdriver
+2025-10-25 16:20:37,455 - INFO - [STEALTH] Injected: chrome
+2025-10-25 16:20:37,457 - INFO - [STEALTH] Injected: permissions
+2025-10-25 16:20:37,459 - INFO - [STEALTH] Injected: plugins
+2025-10-25 16:20:37,462 - INFO - [STEALTH] Injected: languages
+2025-10-25 16:20:37,464 - INFO - [STEALTH] Injected: canvas
+2025-10-25 16:20:37,466 - INFO - [STEALTH] Injected: webgl
+2025-10-25 16:20:37,468 - INFO - [STEALTH] Injected: battery
+2025-10-25 16:20:37,470 - INFO - [STEALTH] Injected: connection
+2025-10-25 16:20:37,472 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-25 16:20:37,474 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-25 16:20:37,474 - INFO - [STEALTH] All stealth scripts injected
+2025-10-25 16:20:37,475 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-25 16:20:37,475 - INFO - ============================================================
+2025-10-25 16:20:37,475 - INFO - [ATTEMPT 1/1] Starting @ 16:20:37
+2025-10-25 16:20:37,475 - INFO - ============================================================
+2025-10-25 16:20:37,475 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-25 16:20:41,834 - INFO - [NAV] Page loaded successfully
+2025-10-25 16:20:44,614 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761384044.png
+2025-10-25 16:20:54,666 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:20:56,198 - INFO - [USER] s25h323zv2r.5365@outlook.com
+2025-10-25 16:20:56,198 - INFO - [FORM] Filling form with human behavior...
+2025-10-25 16:21:01,441 - INFO - [FORM] Email: s25h323zv2r.5365@outlook.com
+2025-10-25 16:21:05,729 - INFO - [FORM] Username: s25h323zv2r86
+2025-10-25 16:21:08,470 - INFO - [FORM] Gender: female (keyboard)
+2025-10-25 16:21:10,745 - INFO - [FORM] Month: November
+2025-10-25 16:21:11,739 - INFO - [FORM] Day: 2
+2025-10-25 16:21:12,986 - INFO - [FORM] Year: 1996
+2025-10-25 16:21:16,939 - INFO - [FORM] Country: United States (keyboard)
+2025-10-25 16:21:18,380 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-25 16:21:18,597 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761384078.png
+2025-10-25 16:21:28,622 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:21:29,845 - INFO - [SUBMIT] Looking for submit button...
+2025-10-25 16:21:31,304 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-25 16:21:32,253 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-25 16:21:34,431 - INFO - [SUBMIT] Clicking submit button...
+2025-10-25 16:21:34,453 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-25 16:21:37,170 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761384096.png
+2025-10-25 16:21:47,175 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-25 16:21:47,175 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-25 16:21:47,189 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-25 16:21:47,420 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761384107.png
+2025-10-25 16:21:47,420 - ERROR - [FAIL] Attempt 1 failed
+2025-10-25 16:21:47,420 - INFO - ============================================================
+2025-10-25 16:21:47,420 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-25 16:21:47,420 - INFO - ============================================================
+2025-10-25 16:21:47,420 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-25 16:21:57,421 - INFO - [CLOSE] Closing browser...
+2025-10-25 16:21:57,734 - INFO - [CLOSE] Browser closed
