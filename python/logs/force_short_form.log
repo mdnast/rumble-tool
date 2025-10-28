@@ -1,0 +1,69 @@
+2025-10-27 14:08:47,398 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 14:08:52,542 - INFO - [DRIVER] Chrome initialized
+2025-10-27 14:08:57,045 - INFO - [PAGE] Loaded
+2025-10-27 14:09:30,185 - INFO - [FORM] Username: False, Gender: False, Country: False
+2025-10-27 14:09:30,187 - INFO - [FORM] SHORT FORM DETECTED
+2025-10-27 14:09:30,376 - INFO - [FORM] Email: jpwr7uoqtgb.8417@outlook.com
+2025-10-27 14:09:32,873 - INFO - [FORM] Birthday: October 16, 2004
+2025-10-27 14:09:43,883 - ERROR - [ERROR] Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='checkbox']"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7bfe43+66515]
+	GetHandleVerifier [0x0x7bfe84+66580]
+	(No symbol) [0x0x5adc48]
+	(No symbol) [0x0x5f8704]
+	(No symbol) [0x0x5f8aab]
+	(No symbol) [0x0x63f482]
+	(No symbol) [0x0x61b214]
+	(No symbol) [0x0x63cba7]
+	(No symbol) [0x0x61afc6]
+	(No symbol) [0x0x5ec2ca]
+	(No symbol) [0x0x5ed154]
+	GetHandleVerifier [0x0xa17353+2521315]
+	GetHandleVerifier [0x0xa122d3+2500707]
+	GetHandleVerifier [0x0x7e7c94+229924]
+	GetHandleVerifier [0x0x7d81f8+165768]
+	GetHandleVerifier [0x0x7decad+193085]
+	GetHandleVerifier [0x0x7c8158+100072]
+	GetHandleVerifier [0x0x7c82f0+100480]
+	GetHandleVerifier [0x0x7b25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+Traceback (most recent call last):
+  File "C:\rumble-tool\python\main_force_short_form.py", line 152, in test_form_detection
+    checkbox = self.driver.find_element(By.XPATH, "//input[@type='checkbox']")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@type='checkbox']"}
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Stacktrace:
+	GetHandleVerifier [0x0x7bfe43+66515]
+	GetHandleVerifier [0x0x7bfe84+66580]
+	(No symbol) [0x0x5adc48]
+	(No symbol) [0x0x5f8704]
+	(No symbol) [0x0x5f8aab]
+	(No symbol) [0x0x63f482]
+	(No symbol) [0x0x61b214]
+	(No symbol) [0x0x63cba7]
+	(No symbol) [0x0x61afc6]
+	(No symbol) [0x0x5ec2ca]
+	(No symbol) [0x0x5ed154]
+	GetHandleVerifier [0x0xa17353+2521315]
+	GetHandleVerifier [0x0xa122d3+2500707]
+	GetHandleVerifier [0x0x7e7c94+229924]
+	GetHandleVerifier [0x0x7d81f8+165768]
+	GetHandleVerifier [0x0x7decad+193085]
+	GetHandleVerifier [0x0x7c8158+100072]
+	GetHandleVerifier [0x0x7c82f0+100480]
+	GetHandleVerifier [0x0x7b25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+

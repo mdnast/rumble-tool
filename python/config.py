@@ -27,9 +27,12 @@ class Config:
     
     # CAPTCHA Solver Settings
     # Local API (http://localhost:5000)
-    LOCAL_CAPTCHA_API_KEY = os.getenv("LOCAL_CAPTCHA_API_KEY", "YOUR_KEY559d1b2771bedd55455c09865b97be55e04a0a9877978")
+    LOCAL_CAPTCHA_API_KEY = os.getenv("LOCAL_CAPTCHA_API_KEY", "")
     
     # NextCaptcha API
-    NEXTCAPTCHA_CLIENT_KEY = os.getenv("NEXTCAPTCHA_CLIENT_KEY", "f7a39c56d0714ab6856e9c85c1fb47e5")
+    NEXTCAPTCHA_CLIENT_KEY = os.getenv("NEXTCAPTCHA_CLIENT_KEY", "")
+    
+    # YesCaptcha API
+    YESCAPTCHA_CLIENT_KEY = os.getenv("YESCAPTCHA_CLIENT_KEY", "559d1b2771bedd55455c09865b97be55e04a0a9877978")
 
 config = Config()

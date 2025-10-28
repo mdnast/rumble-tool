@@ -1,0 +1,73 @@
+============================================================
+RUMBLE ULTIMATE BYPASS - FINAL VERSION
+All stealth techniques + CAPTCHA solver
+============================================================
+
+============================================================
+[FAILED] All attempts failed
+============================================================
+2025-10-27 14:18:49,149 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:18:49,149 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:18:49,705 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:18:49,709 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:18:49,712 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:18:49,715 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:18:49,717 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:18:49,719 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:18:49,732 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:18:49,739 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:18:49,763 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:18:49,766 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:18:49,768 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:18:49,770 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:18:49,770 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:18:49,771 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:18:49,771 - INFO - ============================================================
+2025-10-27 14:18:49,771 - INFO - [ATTEMPT 1/1] Starting @ 14:18:49
+2025-10-27 14:18:49,771 - INFO - ============================================================
+2025-10-27 14:18:49,771 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:18:53,205 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:18:53,206 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:19:05,485 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761549545.png
+2025-10-27 14:19:15,534 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:19:16,978 - INFO - [USER] v0vx1u9bw5s.6102@outlook.com
+2025-10-27 14:19:16,978 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:19:16,978 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:19:26,564 - INFO - [FORM] Email: v0vx1u9bw5s.6102@outlook.com
+2025-10-27 14:19:39,044 - INFO - [FORM] Username: v0vx1u9bw5s87
+2025-10-27 14:19:44,317 - INFO - [FORM] Gender set via Select: male
+2025-10-27 14:19:45,628 - INFO - [FORM] Gender completed: male
+2025-10-27 14:19:49,603 - INFO - [FORM] Month: June
+2025-10-27 14:19:51,442 - INFO - [FORM] Day: 10
+2025-10-27 14:19:53,326 - INFO - [FORM] Year: 1998
+2025-10-27 14:20:09,997 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:20:11,426 - INFO - [FORM] Country completed: United States
+2025-10-27 14:20:12,287 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:20:16,813 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:20:17,038 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761549616.png
+2025-10-27 14:20:27,053 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:20:28,500 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:20:31,589 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:20:32,527 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:20:34,845 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:20:34,872 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:20:37,673 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761549637.png
+2025-10-27 14:20:47,680 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:20:47,680 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:20:47,691 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 14:20:47,894 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761549647.png
+2025-10-27 14:20:47,894 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:20:47,894 - INFO - ============================================================
+2025-10-27 14:20:47,894 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:20:47,894 - INFO - ============================================================
+2025-10-27 14:20:47,894 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:20:57,906 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:20:58,255 - INFO - [CLOSE] Browser closed
+Exception ignored in: <function Chrome.__del__ at 0x0000025AD682EFC0>
+Traceback (most recent call last):
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\site-packages\undetected_chromedriver\__init__.py", line 843, in __del__
+    self.quit()
+  File "C:\Users\Hi\AppData\Local\Programs\Python\Python312\Lib\site-packages\undetected_chromedriver\__init__.py", line 798, in quit
+    time.sleep(0.1)
+OSError: [WinError 6] The handle is invalid

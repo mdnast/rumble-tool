@@ -1,0 +1,35 @@
+2025-10-27 15:40:49,040 - INFO - [CAPTCHA] YesCaptcha solver initialized
+2025-10-27 15:40:49,041 - INFO - [DRIVER] Setting up undetected Chrome...
+2025-10-27 15:40:49,750 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:40:52,751 - INFO - [STEALTH] Injecting scripts...
+2025-10-27 15:40:52,758 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:40:52,763 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:40:52,767 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:40:52,770 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:40:52,775 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:40:52,778 - INFO - [DRIVER] Chrome initialized successfully
+2025-10-27 15:40:52,778 - INFO - ============================================================
+2025-10-27 15:40:52,778 - INFO - CLOUDFLARE BYPASS DEBUG TEST
+2025-10-27 15:40:52,778 - INFO - ============================================================
+2025-10-27 15:40:52,778 - INFO - [STEP 1] Visiting Google...
+2025-10-27 15:40:55,629 - INFO - [SCREENSHOT 1] 01_google_loaded -> C:\rumble-tool\python\logs\debug_01_01_google_loaded_1761554455.png
+2025-10-27 15:40:57,640 - INFO - [STEP 2] Navigating to Rumble...
+2025-10-27 15:41:03,181 - INFO - [SCREENSHOT 2] 02_rumble_initial -> C:\rumble-tool\python\logs\debug_02_02_rumble_initial_1761554462.png
+2025-10-27 15:41:03,181 - INFO - [STEP 3] Checking for Cloudflare...
+2025-10-27 15:41:03,189 - WARNING - [CLOUDFLARE] Detected! Indicators: ['cloudflare', 'please wait']
+2025-10-27 15:41:03,401 - INFO - [SCREENSHOT 3] 03_cloudflare_check -> C:\rumble-tool\python\logs\debug_03_03_cloudflare_check_1761554463.png
+2025-10-27 15:41:03,401 - INFO - [STEP 4] Cloudflare detected, solving...
+2025-10-27 15:41:06,646 - INFO - [SCREENSHOT 4] 04_before_solving -> C:\rumble-tool\python\logs\debug_04_04_before_solving_1761554466.png
+2025-10-27 15:41:16,672 - ERROR - [CAPTCHA] Could not find sitekey
+2025-10-27 15:41:16,673 - INFO - [DEBUG] Page source saved to logs/page_source_no_sitekey.html
+2025-10-27 15:41:16,673 - ERROR - [FAIL] Could not solve challenge
+2025-10-27 15:41:16,884 - INFO - [SCREENSHOT 5] 05_solve_failed -> C:\rumble-tool\python\logs\debug_05_05_solve_failed_1761554476.png
+2025-10-27 15:41:16,894 - INFO - [FINAL] Current URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 15:41:16,900 - INFO - [FINAL] Page title: Rumble Registration
+2025-10-27 15:41:16,900 - INFO - [DEBUG] Final page source saved
+2025-10-27 15:41:16,900 - INFO - 
+[INFO] Browser will stay open for 30 seconds for inspection...
+2025-10-27 15:41:46,910 - INFO - ============================================================
+2025-10-27 15:41:46,910 - INFO - [COMPLETE] Test finished
+2025-10-27 15:41:46,910 - INFO - ============================================================
+2025-10-27 15:41:46,910 - INFO - [CLOSE] Closing browser...

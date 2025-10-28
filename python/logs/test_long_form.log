@@ -1,0 +1,173 @@
+2025-10-27 15:11:53,174 - INFO - [DRIVER] Initializing Chrome...
+2025-10-27 15:11:53,833 - INFO - [DRIVER] Chrome initialized
+2025-10-27 15:11:53,833 - INFO - ============================================================
+2025-10-27 15:11:53,833 - INFO - [TEST] Starting LONG FORM test
+2025-10-27 15:11:53,833 - INFO - ============================================================
+2025-10-27 15:11:53,833 - INFO - [NAV] Going to registration page...
+2025-10-27 15:12:02,235 - INFO - [SCREENSHOT] logs/test_long_01_page_loaded_1761552722.png
+2025-10-27 15:12:02,258 - INFO - [DETECT] username=True, gender=True, country=True
+2025-10-27 15:12:02,260 - INFO - [USER] {'email': 'test_78ltxh67kta@gmail.com', 'username': 'user_78ltxh67kta', 'gender_value': 'male', 'birth_month_text': 'September', 'birth_day': '27', 'birth_year': '1996'}
+2025-10-27 15:12:02,260 - INFO - [FORM] Filling LONG form...
+2025-10-27 15:12:06,629 - INFO - [FORM] Email: test_78ltxh67kta@gmail.com
+2025-10-27 15:12:09,384 - INFO - [FORM] Username: user_78ltxh67kta
+2025-10-27 15:12:10,444 - INFO - [FORM] Gender set via Select: male
+2025-10-27 15:12:10,450 - INFO - [FORM] Gender: male
+2025-10-27 15:12:11,203 - INFO - [SCREENSHOT] logs/test_long_gender_filled_1761552730.png
+2025-10-27 15:12:13,027 - INFO - [FORM] Month: September
+2025-10-27 15:12:14,614 - INFO - [FORM] Day: 27
+2025-10-27 15:12:16,058 - INFO - [FORM] Year: 1996
+2025-10-27 15:12:27,716 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:12:27,725 - INFO - [FORM] Country: United States
+2025-10-27 15:12:28,624 - INFO - [SCREENSHOT] logs/test_long_country_filled_1761552748.png
+2025-10-27 15:12:28,624 - INFO - [FORM] Form filled successfully!
+2025-10-27 15:12:28,848 - INFO - [SCREENSHOT] logs/test_long_02_form_filled_1761552748.png
+2025-10-27 15:12:28,848 - INFO - [SUCCESS] Long form filled successfully!
+2025-10-27 15:12:28,848 - INFO - [INFO] Please check the browser to verify Gender and Country are filled
+2025-10-27 15:12:28,848 - INFO - [INFO] Browser will stay open for 30 seconds...
+2025-10-27 15:12:58,849 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:13:55,778 - INFO - [DRIVER] Initializing Chrome...
+2025-10-27 15:13:56,432 - INFO - [DRIVER] Chrome initialized
+2025-10-27 15:13:56,432 - INFO - ============================================================
+2025-10-27 15:13:56,432 - INFO - [TEST] Starting LONG FORM test
+2025-10-27 15:13:56,432 - INFO - ============================================================
+2025-10-27 15:13:56,432 - INFO - [NAV] Going to registration page...
+2025-10-27 15:14:05,218 - INFO - [SCREENSHOT] logs/test_long_01_page_loaded_1761552844.png
+2025-10-27 15:14:05,239 - INFO - [DETECT] username=True, gender=True, country=True
+2025-10-27 15:14:05,239 - INFO - [USER] {'email': 'test_6wud1jqa454@gmail.com', 'username': 'user_6wud1jqa454', 'gender_value': 'male', 'birth_month_text': 'September', 'birth_day': '30', 'birth_year': '2007'}
+2025-10-27 15:14:05,239 - INFO - [FORM] Filling LONG form...
+2025-10-27 15:14:09,128 - INFO - [FORM] Email: test_6wud1jqa454@gmail.com
+2025-10-27 15:14:11,778 - INFO - [FORM] Username: user_6wud1jqa454
+2025-10-27 15:14:12,872 - INFO - [FORM] Gender set via Select: male
+2025-10-27 15:14:12,878 - INFO - [FORM] Gender: male
+2025-10-27 15:14:13,641 - INFO - [SCREENSHOT] logs/test_long_gender_filled_1761552853.png
+2025-10-27 15:14:15,562 - INFO - [FORM] Month: September
+2025-10-27 15:14:17,029 - INFO - [FORM] Day: 30
+2025-10-27 15:14:18,640 - INFO - [FORM] Year: 2007
+2025-10-27 15:14:30,238 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:14:30,242 - INFO - [FORM] Country: United States
+2025-10-27 15:14:31,135 - INFO - [SCREENSHOT] logs/test_long_country_filled_1761552870.png
+2025-10-27 15:14:31,135 - INFO - [FORM] Form filled successfully!
+2025-10-27 15:14:31,358 - INFO - [SCREENSHOT] logs/test_long_02_form_filled_1761552871.png
+2025-10-27 15:14:31,358 - INFO - [SUCCESS] Long form filled successfully!
+2025-10-27 15:14:31,358 - INFO - [INFO] Please check the browser to verify Gender and Country are filled
+2025-10-27 15:14:31,358 - INFO - [INFO] Browser will stay open for 30 seconds...
+2025-10-27 15:15:01,359 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:16:12,870 - INFO - [DRIVER] Initializing Chrome...
+2025-10-27 15:16:13,522 - INFO - [DRIVER] Chrome initialized
+2025-10-27 15:16:13,522 - INFO - ============================================================
+2025-10-27 15:16:13,522 - INFO - [TEST] Starting LONG FORM test
+2025-10-27 15:16:13,522 - INFO - ============================================================
+2025-10-27 15:16:13,522 - INFO - [NAV] Going to registration page...
+2025-10-27 15:16:21,738 - INFO - [SCREENSHOT] logs/test_long_01_page_loaded_1761552981.png
+2025-10-27 15:16:21,770 - INFO - [DETECT] username=True, gender=True, country=True
+2025-10-27 15:16:21,770 - INFO - [USER] {'email': 'test_swfwtgmpzgr@gmail.com', 'username': 'user_swfwtgmpzgr', 'gender_value': 'female', 'birth_month_text': 'April', 'birth_day': '2', 'birth_year': '2003'}
+2025-10-27 15:16:21,770 - INFO - [FORM] Filling LONG form...
+2025-10-27 15:16:25,718 - INFO - [FORM] Email: test_swfwtgmpzgr@gmail.com
+2025-10-27 15:16:28,343 - INFO - [FORM] Username: user_swfwtgmpzgr
+2025-10-27 15:16:29,374 - INFO - [FORM] Gender set via Select: female
+2025-10-27 15:16:29,381 - INFO - [FORM] Gender: female
+2025-10-27 15:16:30,375 - INFO - [SCREENSHOT] logs/test_long_gender_filled_1761552990.png
+2025-10-27 15:16:32,144 - INFO - [FORM] Month: April
+2025-10-27 15:16:33,722 - INFO - [FORM] Day: 2
+2025-10-27 15:16:34,978 - INFO - [FORM] Year: 2003
+2025-10-27 15:16:46,945 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:16:46,952 - INFO - [FORM] Country: United States
+2025-10-27 15:16:47,786 - INFO - [SCREENSHOT] logs/test_long_country_filled_1761553007.png
+2025-10-27 15:16:47,786 - INFO - [FORM] Form filled successfully!
+2025-10-27 15:16:48,012 - INFO - [SCREENSHOT] logs/test_long_02_form_filled_1761553007.png
+2025-10-27 15:16:48,012 - INFO - [SUCCESS] Long form filled successfully!
+2025-10-27 15:16:48,012 - INFO - [SUBMIT] Checking for terms checkbox...
+2025-10-27 15:16:48,614 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 15:16:49,217 - INFO - [SUBMIT] Looking for Next button...
+2025-10-27 15:16:59,758 - ERROR - [SUBMIT] Error: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6dc48]
+	(No symbol) [0x0xab8704]
+	(No symbol) [0x0xab8aab]
+	(No symbol) [0x0xaff482]
+	(No symbol) [0x0xadb214]
+	(No symbol) [0x0xafcba7]
+	(No symbol) [0x0xadafc6]
+	(No symbol) [0x0xaac2ca]
+	(No symbol) [0x0xaad154]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	GetHandleVerifier [0x0xc88158+100072]
+	GetHandleVerifier [0x0xc882f0+100480]
+	GetHandleVerifier [0x0xc725aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 15:16:59,977 - INFO - [SCREENSHOT] logs/test_long_submit_error_1761553019.png
+2025-10-27 15:16:59,977 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:17:49,388 - INFO - [DRIVER] Initializing Chrome...
+2025-10-27 15:17:50,010 - INFO - [DRIVER] Chrome initialized
+2025-10-27 15:17:50,010 - INFO - ============================================================
+2025-10-27 15:17:50,010 - INFO - [TEST] Starting LONG FORM test
+2025-10-27 15:17:50,010 - INFO - ============================================================
+2025-10-27 15:17:50,010 - INFO - [NAV] Going to registration page...
+2025-10-27 15:17:57,691 - INFO - [SCREENSHOT] logs/test_long_01_page_loaded_1761553077.png
+2025-10-27 15:17:57,712 - INFO - [DETECT] username=True, gender=True, country=True
+2025-10-27 15:17:57,712 - INFO - [USER] {'email': 'test_is2sgjr4ncg@gmail.com', 'username': 'user_is2sgjr4ncg', 'gender_value': 'male', 'birth_month_text': 'January', 'birth_day': '12', 'birth_year': '2000'}
+2025-10-27 15:17:57,712 - INFO - [FORM] Filling LONG form...
+2025-10-27 15:18:01,905 - INFO - [FORM] Email: test_is2sgjr4ncg@gmail.com
+2025-10-27 15:18:04,610 - INFO - [FORM] Username: user_is2sgjr4ncg
+2025-10-27 15:18:05,737 - INFO - [FORM] Gender set via Select: male
+2025-10-27 15:18:05,743 - INFO - [FORM] Gender: male
+2025-10-27 15:18:06,716 - INFO - [SCREENSHOT] logs/test_long_gender_filled_1761553086.png
+2025-10-27 15:18:08,462 - INFO - [FORM] Month: January
+2025-10-27 15:18:09,986 - INFO - [FORM] Day: 12
+2025-10-27 15:18:11,253 - INFO - [FORM] Year: 2000
+2025-10-27 15:18:22,985 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:18:22,991 - INFO - [FORM] Country: United States
+2025-10-27 15:18:23,997 - INFO - [SCREENSHOT] logs/test_long_country_filled_1761553103.png
+2025-10-27 15:18:23,997 - INFO - [FORM] Form filled successfully!
+2025-10-27 15:18:24,241 - INFO - [SCREENSHOT] logs/test_long_02_form_filled_1761553103.png
+2025-10-27 15:18:24,241 - INFO - [SUCCESS] Long form filled successfully!
+2025-10-27 15:18:24,241 - INFO - [SUBMIT] Checking for terms checkbox...
+2025-10-27 15:18:24,922 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 15:18:25,458 - INFO - [SUBMIT] Looking for Next button...
+2025-10-27 15:18:27,171 - INFO - [SUBMIT] Found button with: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:18:28,785 - INFO - [SCREENSHOT] logs/test_long_03_before_click_1761553108.png
+2025-10-27 15:18:28,785 - INFO - [SUBMIT] Clicking Next button...
+2025-10-27 15:18:28,849 - INFO - [SUBMIT] Next button clicked!
+2025-10-27 15:18:29,160 - INFO - [SCREENSHOT] logs/test_long_04_after_click_1761553108.png
+2025-10-27 15:18:29,160 - INFO - [WAIT] Waiting for response...
+2025-10-27 15:18:31,174 - WARNING - [CAPTCHA] ⚠️ CAPTCHA detected at 0s
+2025-10-27 15:18:31,404 - INFO - [SCREENSHOT] logs/test_long_05_captcha_detected_1761553111.png
+2025-10-27 15:18:33,435 - WARNING - [CAPTCHA] ⚠️ CAPTCHA detected at 2s
+2025-10-27 15:18:35,455 - WARNING - [CAPTCHA] ⚠️ CAPTCHA detected at 4s
+2025-10-27 15:18:37,470 - WARNING - [CAPTCHA] ⚠️ CAPTCHA detected at 6s
+2025-10-27 15:18:59,487 - WARNING - [TIMEOUT] No clear result after 30s
+2025-10-27 15:18:59,488 - ERROR - [SCREENSHOT] Error: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6da6b]
+	(No symbol) [0x0xaab5ab]
+	(No symbol) [0x0xadb086]
+	(No symbol) [0x0xad667c]
+	(No symbol) [0x0xad5bf3]
+	(No symbol) [0x0xa3e72d]
+	(No symbol) [0x0xa3ecae]
+	(No symbol) [0x0xa3f14d]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	(No symbol) [0x0xa3e3e3]
+	(No symbol) [0x0xa3db60]
+	GetHandleVerifier [0x0x101c20f+3852191]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 15:18:59,488 - INFO - [INFO] Browser will stay open for 30 seconds for manual check...
+2025-10-27 15:19:29,490 - INFO - [CLOSE] Closing browser...

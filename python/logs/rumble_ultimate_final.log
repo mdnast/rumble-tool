@@ -1109,3 +1109,2213 @@ Stacktrace:
 Keeping browser open for 10 seconds...
 2025-10-27 07:44:08,046 - INFO - [CLOSE] Closing browser...
 2025-10-27 07:44:08,392 - INFO - [CLOSE] Browser closed
+2025-10-27 13:28:06,766 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:28:06,766 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:28:08,602 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:28:11,233 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:28:11,237 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:28:11,239 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:28:11,241 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:28:11,244 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:28:11,247 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:28:11,250 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:28:11,253 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:28:11,256 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:28:11,259 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:28:11,261 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:28:11,266 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:28:11,267 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:28:11,268 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:28:11,269 - INFO - ============================================================
+2025-10-27 13:28:11,269 - INFO - [ATTEMPT 1/1] Starting @ 13:28:11
+2025-10-27 13:28:11,269 - INFO - ============================================================
+2025-10-27 13:28:11,269 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:28:18,621 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:28:21,229 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761546501.png
+2025-10-27 13:28:31,275 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:28:32,312 - INFO - [USER] lrq2y5qyf8y.1238@outlook.com
+2025-10-27 13:28:32,312 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:28:37,601 - INFO - [FORM] Email: lrq2y5qyf8y.1238@outlook.com
+2025-10-27 13:28:42,416 - INFO - [FORM] Username: lrq2y5qyf8y41
+2025-10-27 13:28:44,753 - INFO - [FORM] Gender: male (keyboard)
+2025-10-27 13:28:46,902 - INFO - [FORM] Month: March
+2025-10-27 13:28:47,704 - INFO - [FORM] Day: 21
+2025-10-27 13:28:48,737 - INFO - [FORM] Year: 2004
+2025-10-27 13:28:53,001 - INFO - [FORM] Country: United States (keyboard)
+2025-10-27 13:28:54,771 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:28:54,991 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761546534.png
+2025-10-27 13:29:05,034 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:29:06,113 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:29:07,387 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 13:29:08,202 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:29:10,607 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:29:10,632 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:29:13,597 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761546553.png
+2025-10-27 13:29:18,767 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 13:29:18,767 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:29:22,847 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB24FE00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04dfe07be4496758b03941ccdbcfe21c/url
+2025-10-27 13:29:26,917 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB24FE60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04dfe07be4496758b03941ccdbcfe21c/url
+2025-10-27 13:29:31,000 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB28C080>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04dfe07be4496758b03941ccdbcfe21c/url
+2025-10-27 13:29:35,061 - WARNING - [WARN] Error checking page state: HTTPConnectionPool(host='localhost', port=50677): Max retries exceeded with url: /session/04dfe07be4496758b03941ccdbcfe21c/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB21FBC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:29:39,138 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB24EBD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04dfe07be4496758b03941ccdbcfe21c/screenshot
+2025-10-27 13:29:43,196 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB24F170>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04dfe07be4496758b03941ccdbcfe21c/screenshot
+2025-10-27 13:29:47,277 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB24F470>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/04dfe07be4496758b03941ccdbcfe21c/screenshot
+2025-10-27 13:29:51,358 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=50677): Max retries exceeded with url: /session/04dfe07be4496758b03941ccdbcfe21c/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000024AEB28C170>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:29:51,358 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:29:51,358 - INFO - ============================================================
+2025-10-27 13:29:51,359 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:29:51,359 - INFO - ============================================================
+2025-10-27 13:29:51,359 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:29:53,266 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:29:53,267 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:29:55,860 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:29:58,571 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:29:58,571 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:29:58,571 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:29:58,585 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:29:58,587 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:29:58,590 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:29:58,593 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:29:58,594 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:29:58,594 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:29:58,600 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:29:58,602 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:29:58,602 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:29:58,602 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:29:58,602 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:29:58,602 - INFO - ============================================================
+2025-10-27 13:29:58,602 - INFO - [ATTEMPT 1/1] Starting @ 13:29:58
+2025-10-27 13:29:58,602 - INFO - ============================================================
+2025-10-27 13:29:58,602 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:30:01,360 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:30:01,522 - INFO - [CLOSE] Browser closed
+2025-10-27 13:30:04,839 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:30:07,932 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761546607.png
+2025-10-27 13:30:17,951 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:30:19,145 - INFO - [USER] ojov89yr25s.7575@outlook.com
+2025-10-27 13:30:19,145 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:30:24,465 - INFO - [FORM] Email: ojov89yr25s.7575@outlook.com
+2025-10-27 13:30:56,808 - INFO - [FORM] Month: November
+2025-10-27 13:30:57,908 - INFO - [FORM] Day: 11
+2025-10-27 13:30:59,057 - INFO - [FORM] Year: 2001
+2025-10-27 13:31:01,375 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:31:01,614 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761546661.png
+2025-10-27 13:31:11,671 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:31:13,027 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:31:23,565 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 13:31:23,658 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:31:25,925 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:31:25,941 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:31:28,727 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761546688.png
+2025-10-27 13:31:38,772 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:31:38,774 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:31:38,789 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 13:31:51,188 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 13:31:55,228 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239B6B1D040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c42922334cbb0ccf417448641a8a7109/screenshot
+2025-10-27 13:31:59,292 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239B6B1C1A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c42922334cbb0ccf417448641a8a7109/screenshot
+2025-10-27 13:32:03,352 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239B6B1CE60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/c42922334cbb0ccf417448641a8a7109/screenshot
+2025-10-27 13:32:07,451 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=49698): Max retries exceeded with url: /session/c42922334cbb0ccf417448641a8a7109/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000239B6B1D190>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:32:07,451 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:32:07,452 - INFO - ============================================================
+2025-10-27 13:32:07,452 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:32:07,452 - INFO - ============================================================
+2025-10-27 13:32:07,452 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:32:17,454 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:32:17,602 - INFO - [CLOSE] Browser closed
+2025-10-27 13:36:09,619 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:36:09,620 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:36:13,608 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:36:16,231 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:36:16,236 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:36:16,236 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:36:16,240 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:36:16,242 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:36:16,245 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:36:16,247 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:36:16,249 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:36:16,251 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:36:16,255 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:36:16,256 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:36:16,259 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:36:16,259 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:36:16,260 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:36:16,260 - INFO - ============================================================
+2025-10-27 13:36:16,260 - INFO - [ATTEMPT 1/1] Starting @ 13:36:16
+2025-10-27 13:36:16,260 - INFO - ============================================================
+2025-10-27 13:36:16,260 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:36:20,685 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:36:23,712 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761546983.png
+2025-10-27 13:36:33,736 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:36:35,279 - INFO - [USER] 9d4ydqs4es4.8083@outlook.com
+2025-10-27 13:36:35,279 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:36:40,055 - INFO - [FORM] Email: 9d4ydqs4es4.8083@outlook.com
+2025-10-27 13:37:12,738 - INFO - [FORM] Month: November
+2025-10-27 13:37:13,959 - INFO - [FORM] Day: 26
+2025-10-27 13:37:15,223 - INFO - [FORM] Year: 2002
+2025-10-27 13:37:19,231 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:37:19,460 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761547039.png
+2025-10-27 13:37:29,474 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:37:31,269 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:37:41,822 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 13:37:41,848 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:37:43,771 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:37:43,791 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:37:46,995 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761547066.png
+2025-10-27 13:37:57,828 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 13:37:57,828 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:38:01,929 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B0740>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bfd09115847fc1592c1bcf8ec859fb1b/url
+2025-10-27 13:38:05,990 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B1B50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bfd09115847fc1592c1bcf8ec859fb1b/url
+2025-10-27 13:38:10,062 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B1940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bfd09115847fc1592c1bcf8ec859fb1b/url
+2025-10-27 13:38:14,119 - WARNING - [WARN] Error checking page state: HTTPConnectionPool(host='localhost', port=60138): Max retries exceeded with url: /session/bfd09115847fc1592c1bcf8ec859fb1b/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B1A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:38:18,198 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B1D30>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bfd09115847fc1592c1bcf8ec859fb1b/screenshot
+2025-10-27 13:38:22,281 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B1EB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bfd09115847fc1592c1bcf8ec859fb1b/screenshot
+2025-10-27 13:38:26,364 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B2060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/bfd09115847fc1592c1bcf8ec859fb1b/screenshot
+2025-10-27 13:38:30,425 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=60138): Max retries exceeded with url: /session/bfd09115847fc1592c1bcf8ec859fb1b/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F930B2210>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:38:30,425 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:38:30,425 - INFO - ============================================================
+2025-10-27 13:38:30,425 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:38:30,425 - INFO - ============================================================
+2025-10-27 13:38:30,425 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:38:40,428 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:38:40,615 - INFO - [CLOSE] Browser closed
+2025-10-27 13:40:36,270 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:40:36,271 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:40:38,009 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:40:40,673 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:40:40,673 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:40:40,673 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:40:40,686 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:40:40,688 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:40:40,690 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:40:40,693 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:40:40,695 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:40:40,697 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:40:40,699 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:40:40,702 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:40:40,704 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:40:40,704 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:40:40,705 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:40:40,705 - INFO - ============================================================
+2025-10-27 13:40:40,705 - INFO - [ATTEMPT 1/1] Starting @ 13:40:40
+2025-10-27 13:40:40,705 - INFO - ============================================================
+2025-10-27 13:40:40,705 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:40:44,908 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:40:47,595 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761547247.png
+2025-10-27 13:40:57,649 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:40:58,798 - INFO - [USER] qb4h4251n3p.2194@outlook.com
+2025-10-27 13:40:58,798 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:41:03,949 - INFO - [FORM] Email: qb4h4251n3p.2194@outlook.com
+2025-10-27 13:41:08,504 - INFO - [FORM] Username: qb4h4251n3p61
+2025-10-27 13:41:11,239 - INFO - [FORM] Gender: male
+2025-10-27 13:41:13,680 - INFO - [FORM] Month: November
+2025-10-27 13:41:14,776 - INFO - [FORM] Day: 20
+2025-10-27 13:41:15,404 - ERROR - [FORM] Error: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0x8efe43+66515]
+	GetHandleVerifier [0x0x8efe84+66580]
+	(No symbol) [0x0x6ddc48]
+	(No symbol) [0x0x6cce80]
+	(No symbol) [0x0x6eb81b]
+	(No symbol) [0x0x751c25]
+	(No symbol) [0x0x76c4d9]
+	(No symbol) [0x0x74afc6]
+	(No symbol) [0x0x71c2ca]
+	(No symbol) [0x0x71d154]
+	GetHandleVerifier [0x0xb47353+2521315]
+	GetHandleVerifier [0x0xb422d3+2500707]
+	GetHandleVerifier [0x0x917c94+229924]
+	GetHandleVerifier [0x0x9081f8+165768]
+	GetHandleVerifier [0x0x90ecad+193085]
+	GetHandleVerifier [0x0x8f8158+100072]
+	GetHandleVerifier [0x0x8f82f0+100480]
+	GetHandleVerifier [0x0x8e25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 13:41:15,404 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-27 13:41:15,407 - WARNING - [SCREENSHOT] Failed (browser may have crashed): Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x8efe43+66515]
+	GetHandleVerifier [0x0x8efe84+66580]
+	(No symbol) [0x0x6dda6b]
+	(No symbol) [0x0x71b5ab]
+	(No symbol) [0x0x74b086]
+	(No symbol) [0x0x74667c]
+	(No symbol) [0x0x745bf3]
+	(No symbol) [0x0x6ae72d]
+	(No symbol) [0x0x6aecae]
+	(No symbol) [0x0x6af14d]
+	GetHandleVerifier [0x0xb47353+2521315]
+	GetHandleVerifier [0x0xb422d3+2500707]
+	GetHandleVerifier [0x0x917c94+229924]
+	GetHandleVerifier [0x0x9081f8+165768]
+	GetHandleVerifier [0x0x90ecad+193085]
+	(No symbol) [0x0x6ae3e3]
+	(No symbol) [0x0x6adb60]
+	GetHandleVerifier [0x0xc8c20f+3852191]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 13:41:15,407 - INFO - ============================================================
+2025-10-27 13:41:15,407 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:41:15,408 - INFO - ============================================================
+2025-10-27 13:41:15,408 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:41:25,409 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:41:25,547 - INFO - [CLOSE] Browser closed
+2025-10-27 13:41:39,873 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:41:39,873 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:41:41,592 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:41:44,142 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:41:44,142 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:41:44,142 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:41:44,151 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:41:44,154 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:41:44,156 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:41:44,159 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:41:44,161 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:41:44,163 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:41:44,166 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:41:44,168 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:41:44,171 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:41:44,171 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:41:44,172 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:41:44,172 - INFO - ============================================================
+2025-10-27 13:41:44,172 - INFO - [ATTEMPT 1/1] Starting @ 13:41:44
+2025-10-27 13:41:44,174 - INFO - ============================================================
+2025-10-27 13:41:44,174 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:41:48,200 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:41:50,838 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761547310.png
+2025-10-27 13:42:00,848 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:42:01,954 - INFO - [USER] 83ypw43mugy.2433@outlook.com
+2025-10-27 13:42:01,954 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:42:06,115 - ERROR - [FORM] Error: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=141.0.7390.123); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+	GetHandleVerifier [0x0x11bfe43+66515]
+	GetHandleVerifier [0x0x11bfe84+66580]
+	(No symbol) [0x0xfadc48]
+	(No symbol) [0x0xfb4617]
+	(No symbol) [0x0xfb69d4]
+	(No symbol) [0x0xfb6a68]
+	(No symbol) [0x0xff93ea]
+	(No symbol) [0x0xff9481]
+	(No symbol) [0x0xff0bad]
+	(No symbol) [0x0x101b1cc]
+	(No symbol) [0x0xfedb74]
+	(No symbol) [0x0x101b384]
+	(No symbol) [0x0x103cba7]
+	(No symbol) [0x0x101afc6]
+	(No symbol) [0x0xfec2ca]
+	(No symbol) [0x0xfed154]
+	GetHandleVerifier [0x0x1417353+2521315]
+	GetHandleVerifier [0x0x14122d3+2500707]
+	GetHandleVerifier [0x0x11e7c94+229924]
+	GetHandleVerifier [0x0x11d81f8+165768]
+	GetHandleVerifier [0x0x11decad+193085]
+	GetHandleVerifier [0x0x11c8158+100072]
+	GetHandleVerifier [0x0x11c82f0+100480]
+	GetHandleVerifier [0x0x11b25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 13:42:06,116 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-27 13:42:06,449 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_02_fill_error_1761547326.png
+2025-10-27 13:42:06,449 - INFO - ============================================================
+2025-10-27 13:42:06,449 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:42:06,449 - INFO - ============================================================
+2025-10-27 13:42:06,450 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:42:16,451 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:42:16,770 - INFO - [CLOSE] Browser closed
+2025-10-27 13:42:36,953 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:42:36,953 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:42:40,741 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:42:43,306 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:42:43,310 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:42:43,312 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:42:43,315 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:42:43,317 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:42:43,319 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:42:43,321 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:42:43,323 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:42:43,326 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:42:43,328 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:42:43,330 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:42:43,333 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:42:43,333 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:42:43,333 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:42:43,333 - INFO - ============================================================
+2025-10-27 13:42:43,335 - INFO - [ATTEMPT 1/1] Starting @ 13:42:43
+2025-10-27 13:42:43,335 - INFO - ============================================================
+2025-10-27 13:42:43,335 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:42:46,770 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:42:50,135 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761547369.png
+2025-10-27 13:43:00,199 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:43:01,261 - INFO - [USER] caewa530463.5693@outlook.com
+2025-10-27 13:43:01,261 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:43:06,708 - INFO - [FORM] Email: caewa530463.5693@outlook.com
+2025-10-27 13:43:38,956 - INFO - [FORM] Month: April
+2025-10-27 13:43:39,918 - INFO - [FORM] Day: 19
+2025-10-27 13:43:40,759 - INFO - [FORM] Year: 1999
+2025-10-27 13:43:44,963 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:43:45,210 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761547424.png
+2025-10-27 13:43:55,229 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:43:56,367 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:44:06,929 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 13:44:06,995 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:44:08,950 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:44:09,059 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:44:12,596 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761547451.png
+2025-10-27 13:44:22,615 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:44:22,616 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:44:22,628 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 13:44:32,635 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:44:32,635 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 13:44:35,647 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 13:44:43,709 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 13:44:47,756 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E926EF0AD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44935490a511b01f30181268b66d60f2/screenshot
+2025-10-27 13:44:51,772 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E926EF0D10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44935490a511b01f30181268b66d60f2/screenshot
+2025-10-27 13:44:55,830 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E926EF1970>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/44935490a511b01f30181268b66d60f2/screenshot
+2025-10-27 13:44:59,887 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=58944): Max retries exceeded with url: /session/44935490a511b01f30181268b66d60f2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001E926EF1D00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:44:59,887 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:44:59,887 - INFO - ============================================================
+2025-10-27 13:44:59,888 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:44:59,888 - INFO - ============================================================
+2025-10-27 13:44:59,888 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:45:09,889 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:45:10,048 - INFO - [CLOSE] Browser closed
+2025-10-27 13:45:20,843 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:45:20,843 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:45:22,542 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:45:25,114 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:45:25,118 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:45:25,121 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:45:25,123 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:45:25,126 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:45:25,129 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:45:25,131 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:45:25,134 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:45:25,137 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:45:25,140 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:45:25,142 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:45:25,145 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:45:25,145 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:45:25,146 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:45:25,146 - INFO - ============================================================
+2025-10-27 13:45:25,146 - INFO - [ATTEMPT 1/1] Starting @ 13:45:25
+2025-10-27 13:45:25,146 - INFO - ============================================================
+2025-10-27 13:45:25,147 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:45:29,092 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:45:32,413 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761547532.png
+2025-10-27 13:45:42,470 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:45:43,608 - INFO - [USER] kgkt6amt6vf.3458@outlook.com
+2025-10-27 13:45:43,608 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:45:48,884 - INFO - [FORM] Email: kgkt6amt6vf.3458@outlook.com
+2025-10-27 13:45:53,237 - INFO - [FORM] Username: kgkt6amt6vf51
+2025-10-27 13:45:55,503 - INFO - [FORM] Gender: male
+2025-10-27 13:45:58,441 - INFO - [FORM] Month: June
+2025-10-27 13:45:59,666 - INFO - [FORM] Day: 2
+2025-10-27 13:46:00,578 - INFO - [FORM] Year: 1998
+2025-10-27 13:46:15,721 - INFO - [FORM] Country: United States
+2025-10-27 13:46:19,350 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:46:19,556 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761547579.png
+2025-10-27 13:46:29,607 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:46:30,889 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:46:32,607 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 13:46:33,219 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:46:35,772 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:46:35,802 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:46:38,171 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761547597.png
+2025-10-27 13:46:48,179 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:46:48,179 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:47:28,856 - ERROR - [TIMEOUT] No response after 40s
+2025-10-27 13:47:28,857 - INFO - [INFO] Final URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 13:47:29,300 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761547648.png
+2025-10-27 13:47:29,301 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:47:29,301 - INFO - ============================================================
+2025-10-27 13:47:29,301 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:47:29,301 - INFO - ============================================================
+2025-10-27 13:47:29,302 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:47:39,303 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:47:39,584 - INFO - [CLOSE] Browser closed
+2025-10-27 13:49:17,199 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:49:17,200 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:49:21,307 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:49:26,787 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:49:26,798 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:49:26,804 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:49:26,810 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:49:26,815 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:49:26,822 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:49:26,830 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:49:26,836 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:49:26,843 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:49:26,850 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:49:26,861 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:49:26,866 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:49:26,867 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:49:26,869 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:49:26,869 - INFO - ============================================================
+2025-10-27 13:49:26,870 - INFO - [ATTEMPT 1/1] Starting @ 13:49:26
+2025-10-27 13:49:26,870 - INFO - ============================================================
+2025-10-27 13:49:26,871 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:49:31,406 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:49:34,657 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761547774.png
+2025-10-27 13:49:44,716 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:49:46,611 - INFO - [USER] 9fdzano2s69.2455@outlook.com
+2025-10-27 13:49:46,611 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:49:52,954 - INFO - [FORM] Email: 9fdzano2s69.2455@outlook.com
+2025-10-27 13:49:58,034 - INFO - [FORM] Username: 9fdzano2s6940
+2025-10-27 13:49:59,752 - INFO - [FORM] Gender set via Select: female
+2025-10-27 13:50:01,194 - INFO - [FORM] Gender completed: female
+2025-10-27 13:50:02,775 - INFO - [FORM] Month: January
+2025-10-27 13:50:03,944 - INFO - [FORM] Day: 8
+2025-10-27 13:50:04,993 - INFO - [FORM] Year: 1997
+2025-10-27 13:50:18,726 - INFO - [FORM] Country set via Select: United States
+2025-10-27 13:50:20,336 - INFO - [FORM] Country completed: United States
+2025-10-27 13:50:22,433 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:50:22,964 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761547822.png
+2025-10-27 13:50:32,974 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:50:34,496 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:50:34,617 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:50:36,856 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:50:36,917 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:50:40,403 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761547839.png
+2025-10-27 13:50:50,448 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:50:50,448 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:50:50,489 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 13:50:51,277 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761547850.png
+2025-10-27 13:50:51,277 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:50:51,277 - INFO - ============================================================
+2025-10-27 13:50:51,277 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:50:51,277 - INFO - ============================================================
+2025-10-27 13:50:51,277 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:51:01,282 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:51:01,857 - INFO - [CLOSE] Browser closed
+2025-10-27 13:53:57,763 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:53:57,764 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:54:02,589 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:54:08,248 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:54:08,251 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:54:08,261 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:54:08,261 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:54:08,271 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:54:08,278 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:54:08,284 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:54:08,287 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:54:08,294 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:54:08,302 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:54:08,307 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:54:08,312 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:54:08,314 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:54:08,314 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:54:08,314 - INFO - ============================================================
+2025-10-27 13:54:08,314 - INFO - [ATTEMPT 1/1] Starting @ 13:54:08
+2025-10-27 13:54:08,314 - INFO - ============================================================
+2025-10-27 13:54:08,314 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:54:12,069 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:54:15,470 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761548054.png
+2025-10-27 13:54:24,272 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 13:54:25,946 - INFO - [USER] xk04gu1mrcr.3267@outlook.com
+2025-10-27 13:54:25,947 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:54:25,947 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 13:54:33,179 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A400260>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/actions
+2025-10-27 13:54:37,261 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A400050>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/actions
+2025-10-27 13:54:41,353 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A400590>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/actions
+2025-10-27 13:54:50,637 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A400B00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/element
+2025-10-27 13:54:54,741 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A400D40>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/element
+2025-10-27 13:54:58,846 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A400F80>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/element
+2025-10-27 13:55:02,942 - ERROR - [FORM] Error: HTTPConnectionPool(host='localhost', port=52089): Max retries exceeded with url: /session/ee71f514bd4c188526e9758c9923cbf2/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A4011C0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:55:02,942 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-27 13:55:07,026 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A3DFA10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/screenshot
+2025-10-27 13:55:11,103 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A3DF980>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/screenshot
+2025-10-27 13:55:15,191 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A4001A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/ee71f514bd4c188526e9758c9923cbf2/screenshot
+2025-10-27 13:55:19,280 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=52089): Max retries exceeded with url: /session/ee71f514bd4c188526e9758c9923cbf2/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002530A4007A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:55:19,281 - INFO - ============================================================
+2025-10-27 13:55:19,282 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:55:19,282 - INFO - ============================================================
+2025-10-27 13:55:19,283 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:55:29,284 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:55:29,636 - INFO - [CLOSE] Browser closed
+2025-10-27 13:55:38,098 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:55:38,100 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:55:42,937 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:55:48,227 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:55:48,245 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:55:48,253 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:55:48,259 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:55:48,265 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:55:48,272 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:55:48,280 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:55:48,285 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:55:48,285 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:55:48,296 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:55:48,302 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:55:48,311 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:55:48,311 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:55:48,312 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:55:48,314 - INFO - ============================================================
+2025-10-27 13:55:48,314 - INFO - [ATTEMPT 1/1] Starting @ 13:55:48
+2025-10-27 13:55:48,315 - INFO - ============================================================
+2025-10-27 13:55:48,315 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:55:51,784 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:55:54,733 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761548154.png
+2025-10-27 13:56:01,649 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 13:56:02,734 - INFO - [USER] lzsxiz3g0kk.3713@outlook.com
+2025-10-27 13:56:02,735 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:56:02,735 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 13:56:10,600 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80170>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/actions
+2025-10-27 13:56:14,672 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB803E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/actions
+2025-10-27 13:56:18,761 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80620>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/actions
+2025-10-27 13:56:28,602 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80B90>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/element
+2025-10-27 13:56:32,688 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80DD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/element
+2025-10-27 13:56:36,751 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB81010>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/element
+2025-10-27 13:56:40,825 - ERROR - [FORM] Error: HTTPConnectionPool(host='localhost', port=53007): Max retries exceeded with url: /session/eff2b218c330bcce97906f82234b33b9/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB81250>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:56:40,825 - ERROR - [ATTEMPT 1] Form fill failed
+2025-10-27 13:56:44,911 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB5FC50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/screenshot
+2025-10-27 13:56:48,984 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80A10>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/screenshot
+2025-10-27 13:56:53,078 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80560>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/eff2b218c330bcce97906f82234b33b9/screenshot
+2025-10-27 13:56:57,167 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=53007): Max retries exceeded with url: /session/eff2b218c330bcce97906f82234b33b9/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001AF4FB80860>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 13:56:57,168 - INFO - ============================================================
+2025-10-27 13:56:57,168 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:56:57,169 - INFO - ============================================================
+2025-10-27 13:56:57,170 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:57:07,171 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:57:07,504 - INFO - [CLOSE] Browser closed
+2025-10-27 13:57:14,389 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 13:57:14,389 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 13:57:18,260 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 13:57:23,924 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 13:57:23,935 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 13:57:23,941 - INFO - [STEALTH] Injected: chrome
+2025-10-27 13:57:23,946 - INFO - [STEALTH] Injected: permissions
+2025-10-27 13:57:23,950 - INFO - [STEALTH] Injected: plugins
+2025-10-27 13:57:23,960 - INFO - [STEALTH] Injected: languages
+2025-10-27 13:57:23,966 - INFO - [STEALTH] Injected: canvas
+2025-10-27 13:57:23,972 - INFO - [STEALTH] Injected: webgl
+2025-10-27 13:57:23,979 - INFO - [STEALTH] Injected: battery
+2025-10-27 13:57:23,983 - INFO - [STEALTH] Injected: connection
+2025-10-27 13:57:23,991 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 13:57:24,001 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 13:57:24,001 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 13:57:24,004 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 13:57:24,004 - INFO - ============================================================
+2025-10-27 13:57:24,004 - INFO - [ATTEMPT 1/1] Starting @ 13:57:24
+2025-10-27 13:57:24,007 - INFO - ============================================================
+2025-10-27 13:57:24,007 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 13:57:27,961 - INFO - [NAV] Page loaded successfully
+2025-10-27 13:57:31,999 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761548251.png
+2025-10-27 13:57:42,076 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:57:43,505 - INFO - [USER] o8fju0u4pym.8046@outlook.com
+2025-10-27 13:57:43,506 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 13:57:43,506 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 13:57:55,849 - INFO - [FORM] Email: o8fju0u4pym.8046@outlook.com
+2025-10-27 13:58:04,907 - INFO - [FORM] Username: o8fju0u4pym45
+2025-10-27 13:58:09,796 - INFO - [FORM] Gender set via Select: male
+2025-10-27 13:58:11,552 - INFO - [FORM] Gender completed: male
+2025-10-27 13:58:15,990 - INFO - [FORM] Month: May
+2025-10-27 13:58:18,144 - INFO - [FORM] Day: 26
+2025-10-27 13:58:20,681 - INFO - [FORM] Year: 2005
+2025-10-27 13:58:37,047 - INFO - [FORM] Country set via Select: United States
+2025-10-27 13:58:38,901 - INFO - [FORM] Country completed: United States
+2025-10-27 13:58:40,274 - INFO - [HUMAN] Simulating form review...
+2025-10-27 13:58:48,781 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 13:58:49,291 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761548328.png
+2025-10-27 13:58:59,327 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:59:00,948 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 13:59:06,512 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 13:59:07,883 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 13:59:12,383 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 13:59:12,456 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 13:59:15,051 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761548354.png
+2025-10-27 13:59:25,101 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 13:59:25,103 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 13:59:25,138 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 13:59:25,638 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761548365.png
+2025-10-27 13:59:25,640 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 13:59:25,640 - INFO - ============================================================
+2025-10-27 13:59:25,641 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 13:59:25,641 - INFO - ============================================================
+2025-10-27 13:59:25,643 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 13:59:35,645 - INFO - [CLOSE] Closing browser...
+2025-10-27 13:59:36,189 - INFO - [CLOSE] Browser closed
+2025-10-27 14:00:42,242 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:00:42,243 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 14:00:45,954 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 14:00:51,214 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:00:51,223 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:00:51,228 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:00:51,233 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:00:51,239 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:00:51,244 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:00:51,249 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:00:51,254 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:00:51,259 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:00:51,264 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:00:51,270 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:00:51,274 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:00:51,276 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:00:51,277 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:00:51,277 - INFO - ============================================================
+2025-10-27 14:00:51,278 - INFO - [ATTEMPT 1/1] Starting @ 14:00:51
+2025-10-27 14:00:51,278 - INFO - ============================================================
+2025-10-27 14:00:51,278 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:00:56,027 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:01:00,421 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761548459.png
+2025-10-27 14:01:10,440 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:01:12,035 - INFO - [USER] pyi7mw36hrd.8701@outlook.com
+2025-10-27 14:01:12,035 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:01:12,035 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:01:24,035 - INFO - [FORM] Email: pyi7mw36hrd.8701@outlook.com
+2025-10-27 14:01:33,373 - INFO - [FORM] Username: pyi7mw36hrd83
+2025-10-27 14:01:38,648 - INFO - [FORM] Gender set via Select: female
+2025-10-27 14:01:40,474 - INFO - [FORM] Gender completed: female
+2025-10-27 14:01:45,062 - INFO - [FORM] Month: November
+2025-10-27 14:01:47,610 - INFO - [FORM] Day: 18
+2025-10-27 14:01:50,515 - INFO - [FORM] Year: 2004
+2025-10-27 14:02:07,068 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:02:08,882 - INFO - [FORM] Country completed: United States
+2025-10-27 14:02:10,250 - INFO - [HUMAN] Simulating form review...
+2025-10-27 14:02:17,508 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:02:18,027 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761548537.png
+2025-10-27 14:02:28,057 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:02:29,735 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:02:35,099 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:02:36,501 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:02:40,332 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:02:40,391 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:02:43,217 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761548562.png
+2025-10-27 14:02:53,265 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:02:53,265 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:02:53,293 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 14:02:53,771 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761548573.png
+2025-10-27 14:02:53,771 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:02:53,772 - INFO - ============================================================
+2025-10-27 14:02:53,772 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:02:53,772 - INFO - ============================================================
+2025-10-27 14:02:53,772 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:03:03,773 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:03:04,459 - INFO - [CLOSE] Browser closed
+2025-10-27 14:05:39,608 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:05:39,608 - INFO - [DRIVER] Initializing ULTIMATE undetected Chrome...
+2025-10-27 14:05:43,324 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 14:05:48,439 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:05:48,460 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:05:48,460 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:05:48,468 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:05:48,468 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:05:48,468 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:05:48,487 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:05:48,492 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:05:48,492 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:05:48,503 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:05:48,509 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:05:48,514 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:05:48,514 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:05:48,514 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:05:48,514 - INFO - ============================================================
+2025-10-27 14:05:48,514 - INFO - [ATTEMPT 1/1] Starting @ 14:05:48
+2025-10-27 14:05:48,517 - INFO - ============================================================
+2025-10-27 14:05:48,517 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:05:52,342 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:05:52,342 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:06:05,866 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761548765.png
+2025-10-27 14:06:15,930 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:06:17,520 - INFO - [USER] naqo8hqwzej.2487@outlook.com
+2025-10-27 14:06:17,520 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:06:17,520 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:06:29,659 - INFO - [FORM] Email: naqo8hqwzej.2487@outlook.com
+2025-10-27 14:06:41,185 - INFO - [FORM] Username: naqo8hqwzej10
+2025-10-27 14:06:45,901 - INFO - [FORM] Gender set via Select: male
+2025-10-27 14:06:47,315 - INFO - [FORM] Gender completed: male
+2025-10-27 14:06:51,547 - INFO - [FORM] Month: November
+2025-10-27 14:06:53,900 - INFO - [FORM] Day: 14
+2025-10-27 14:06:56,492 - INFO - [FORM] Year: 1994
+2025-10-27 14:07:12,609 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:07:14,203 - INFO - [FORM] Country completed: United States
+2025-10-27 14:07:15,092 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:07:18,824 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:07:19,319 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761548838.png
+2025-10-27 14:07:29,384 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:07:30,632 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:07:33,889 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:07:34,755 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:07:37,717 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:07:37,784 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:07:40,466 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761548859.png
+2025-10-27 14:07:50,523 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:07:50,523 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:07:50,549 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 14:07:51,024 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761548870.png
+2025-10-27 14:07:51,024 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:07:51,024 - INFO - ============================================================
+2025-10-27 14:07:51,028 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:07:51,028 - INFO - ============================================================
+2025-10-27 14:07:51,028 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:08:01,029 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:08:01,675 - INFO - [CLOSE] Browser closed
+2025-10-27 14:10:18,921 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:10:18,921 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:10:20,620 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 14:10:28,054 - ERROR - [DRIVER] Failed to initialize: Message: invalid argument: cannot parse capability: goog:chromeOptions
+from invalid argument: unrecognized chrome option: excludeSwitches
+Stacktrace:
+	GetHandleVerifier [0x0x12efe43+66515]
+	GetHandleVerifier [0x0x12efe84+66580]
+	(No symbol) [0x0x10ddc48]
+	(No symbol) [0x0x1106c58]
+	(No symbol) [0x0x1108850]
+	(No symbol) [0x0x1102e46]
+	(No symbol) [0x0x11558e2]
+	(No symbol) [0x0x115529f]
+	(No symbol) [0x0x1156b00]
+	(No symbol) [0x0x11568fa]
+	(No symbol) [0x0x114afc6]
+	(No symbol) [0x0x111c2ca]
+	(No symbol) [0x0x111d154]
+	GetHandleVerifier [0x0x1547353+2521315]
+	GetHandleVerifier [0x0x15422d3+2500707]
+	GetHandleVerifier [0x0x1317c94+229924]
+	GetHandleVerifier [0x0x13081f8+165768]
+	GetHandleVerifier [0x0x130ecad+193085]
+	GetHandleVerifier [0x0x12f8158+100072]
+	GetHandleVerifier [0x0x12f82f0+100480]
+	GetHandleVerifier [0x0x12e25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 14:10:42,561 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:10:42,561 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:10:47,035 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 14:10:52,157 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:10:52,167 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:10:52,172 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:10:52,176 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:10:52,182 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:10:52,185 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:10:52,193 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:10:52,198 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:10:52,201 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:10:52,210 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:10:52,217 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:10:52,221 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:10:52,221 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:10:52,223 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:10:52,223 - INFO - ============================================================
+2025-10-27 14:10:52,225 - INFO - [ATTEMPT 1/1] Starting @ 14:10:52
+2025-10-27 14:10:52,225 - INFO - ============================================================
+2025-10-27 14:10:52,225 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:11:14,020 - ERROR - [NAV] Failed: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xcdfe43+66515]
+	GetHandleVerifier [0x0xcdfe84+66580]
+	(No symbol) [0x0xacdc48]
+	(No symbol) [0x0xb18704]
+	(No symbol) [0x0xb18aab]
+	(No symbol) [0x0xb5f482]
+	(No symbol) [0x0xb3b214]
+	(No symbol) [0x0xb5cba7]
+	(No symbol) [0x0xb3afc6]
+	(No symbol) [0x0xb0c2ca]
+	(No symbol) [0x0xb0d154]
+	GetHandleVerifier [0x0xf37353+2521315]
+	GetHandleVerifier [0x0xf322d3+2500707]
+	GetHandleVerifier [0x0xd07c94+229924]
+	GetHandleVerifier [0x0xcf81f8+165768]
+	GetHandleVerifier [0x0xcfecad+193085]
+	GetHandleVerifier [0x0xce8158+100072]
+	GetHandleVerifier [0x0xce82f0+100480]
+	GetHandleVerifier [0x0xcd25aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 14:11:14,020 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-27 14:11:14,020 - INFO - ============================================================
+2025-10-27 14:11:14,020 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:11:14,020 - INFO - ============================================================
+2025-10-27 14:11:14,021 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:11:24,022 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:11:24,576 - INFO - [CLOSE] Browser closed
+2025-10-27 14:11:43,906 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:11:43,906 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:11:50,378 - INFO - patching driver executable C:\Users\Hi\appdata\roaming\undetected_chromedriver\undetected_chromedriver.exe
+2025-10-27 14:11:55,715 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:11:55,727 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:11:55,734 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:11:55,741 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:11:55,745 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:11:55,750 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:11:55,755 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:11:55,761 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:11:55,767 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:11:55,772 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:11:55,777 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:11:55,785 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:11:55,785 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:11:55,787 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:11:55,787 - INFO - ============================================================
+2025-10-27 14:11:55,787 - INFO - [ATTEMPT 1/1] Starting @ 14:11:55
+2025-10-27 14:11:55,787 - INFO - ============================================================
+2025-10-27 14:11:55,787 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:11:59,600 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:11:59,600 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:12:12,451 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761549131.png
+2025-10-27 14:12:22,497 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:12:23,662 - INFO - [USER] 1eb8djoh1uq.7210@outlook.com
+2025-10-27 14:12:23,662 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:12:23,662 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:12:35,258 - INFO - [FORM] Email: 1eb8djoh1uq.7210@outlook.com
+2025-10-27 14:13:13,505 - INFO - [FORM] Month: June
+2025-10-27 14:13:15,970 - INFO - [FORM] Day: 19
+2025-10-27 14:13:18,628 - INFO - [FORM] Year: 1999
+2025-10-27 14:13:22,123 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:13:25,949 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:13:26,514 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761549205.png
+2025-10-27 14:13:36,536 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:13:37,716 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:13:48,581 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 14:13:48,635 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:13:52,088 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:13:52,130 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:13:57,203 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761549234.png
+2025-10-27 14:14:07,246 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:14:07,247 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:14:07,257 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:14:17,323 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:14:17,323 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:14:20,324 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:14:30,379 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:14:30,379 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:14:33,392 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:14:43,438 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:14:43,438 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:14:46,446 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:14:56,477 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:14:56,477 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:14:59,478 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:15:09,528 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:15:09,528 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:15:12,537 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:15:22,611 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:15:22,611 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:15:25,625 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:15:35,626 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:15:35,627 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:15:38,640 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:15:48,677 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:15:48,678 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:15:51,689 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:15:57,490 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:15:57,490 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:15:58,066 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:15:58,070 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:15:58,074 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:15:58,076 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:15:58,079 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:15:58,082 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:15:58,086 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:15:58,089 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:15:58,093 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:15:58,096 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:15:58,099 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:15:58,102 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:15:58,102 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:15:58,103 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:15:58,103 - INFO - ============================================================
+2025-10-27 14:15:58,103 - INFO - [ATTEMPT 1/1] Starting @ 14:15:58
+2025-10-27 14:15:58,103 - INFO - ============================================================
+2025-10-27 14:15:58,103 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:16:01,740 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:16:01,740 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:16:01,907 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:16:01,907 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:16:04,749 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:16:14,772 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:16:14,772 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:16:15,219 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761549374.png
+2025-10-27 14:16:17,773 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:16:25,236 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:16:26,263 - INFO - [USER] 6evadcp6zoa.1297@outlook.com
+2025-10-27 14:16:26,263 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:16:26,263 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:16:27,835 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:16:27,835 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:16:30,849 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:16:36,533 - INFO - [FORM] Email: 6evadcp6zoa.1297@outlook.com
+2025-10-27 14:16:40,870 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:16:40,870 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:16:43,886 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:16:48,360 - INFO - [FORM] Username: 6evadcp6zoa20
+2025-10-27 14:16:52,942 - INFO - [FORM] Gender set via Select: male
+2025-10-27 14:16:53,936 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:16:53,936 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:16:54,261 - INFO - [FORM] Gender completed: male
+2025-10-27 14:16:56,940 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:16:58,211 - INFO - [FORM] Month: August
+2025-10-27 14:17:00,335 - INFO - [FORM] Day: 28
+2025-10-27 14:17:02,567 - INFO - [FORM] Year: 1997
+2025-10-27 14:17:06,962 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:17:06,962 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:17:09,978 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:17:17,761 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:17:19,001 - INFO - [FORM] Country completed: United States
+2025-10-27 14:17:19,985 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:17:19,985 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:17:20,306 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:17:23,005 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:17:24,541 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:17:24,767 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761549444.png
+2025-10-27 14:17:33,026 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:17:33,027 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:17:34,816 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:17:35,891 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:17:36,037 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:17:39,342 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:17:40,184 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:17:42,862 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:17:42,884 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:17:45,123 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761549464.png
+2025-10-27 14:17:46,078 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:17:46,078 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:17:49,090 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:17:55,163 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:17:55,163 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:17:55,176 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 14:17:55,394 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761549475.png
+2025-10-27 14:17:55,394 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:17:55,394 - INFO - ============================================================
+2025-10-27 14:17:55,394 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:17:55,394 - INFO - ============================================================
+2025-10-27 14:17:55,394 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:18:05,395 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:18:05,692 - INFO - [CLOSE] Browser closed
+2025-10-27 14:18:49,149 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:18:49,149 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:18:49,705 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:18:49,709 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:18:49,712 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:18:49,715 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:18:49,717 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:18:49,719 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:18:49,732 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:18:49,739 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:18:49,763 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:18:49,766 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:18:49,768 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:18:49,770 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:18:49,770 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:18:49,771 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:18:49,771 - INFO - ============================================================
+2025-10-27 14:18:49,771 - INFO - [ATTEMPT 1/1] Starting @ 14:18:49
+2025-10-27 14:18:49,771 - INFO - ============================================================
+2025-10-27 14:18:49,771 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:18:53,205 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:18:53,206 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:19:05,485 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761549545.png
+2025-10-27 14:19:15,534 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:19:16,978 - INFO - [USER] v0vx1u9bw5s.6102@outlook.com
+2025-10-27 14:19:16,978 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:19:16,978 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:19:26,564 - INFO - [FORM] Email: v0vx1u9bw5s.6102@outlook.com
+2025-10-27 14:19:39,044 - INFO - [FORM] Username: v0vx1u9bw5s87
+2025-10-27 14:19:44,317 - INFO - [FORM] Gender set via Select: male
+2025-10-27 14:19:45,628 - INFO - [FORM] Gender completed: male
+2025-10-27 14:19:49,603 - INFO - [FORM] Month: June
+2025-10-27 14:19:51,442 - INFO - [FORM] Day: 10
+2025-10-27 14:19:53,326 - INFO - [FORM] Year: 1998
+2025-10-27 14:20:09,997 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:20:11,426 - INFO - [FORM] Country completed: United States
+2025-10-27 14:20:12,287 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:20:16,813 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:20:17,038 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761549616.png
+2025-10-27 14:20:27,053 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:20:28,500 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:20:31,589 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:20:32,527 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:20:34,845 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:20:34,872 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:20:37,673 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761549637.png
+2025-10-27 14:20:47,680 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:20:47,680 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:20:47,691 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 14:20:47,894 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761549647.png
+2025-10-27 14:20:47,894 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:20:47,894 - INFO - ============================================================
+2025-10-27 14:20:47,894 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:20:47,894 - INFO - ============================================================
+2025-10-27 14:20:47,894 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:20:57,906 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:20:58,255 - INFO - [CLOSE] Browser closed
+2025-10-27 14:21:28,794 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:21:28,794 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:21:29,369 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:21:33,494 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:21:33,499 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:21:33,499 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:21:33,499 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:21:33,499 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:21:33,510 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:21:33,512 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:21:33,514 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:21:33,516 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:21:33,518 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:21:33,521 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:21:33,523 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:21:33,523 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:21:33,523 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:21:39,574 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:21:39,574 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:21:39,574 - INFO - ============================================================
+2025-10-27 14:21:39,574 - INFO - [ATTEMPT 1/1] Starting @ 14:21:39
+2025-10-27 14:21:39,574 - INFO - ============================================================
+2025-10-27 14:21:39,574 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:21:43,101 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:21:43,101 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:21:56,083 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761549715.png
+2025-10-27 14:22:06,139 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:22:07,745 - INFO - [USER] k8ztp00ufk6.8169@outlook.com
+2025-10-27 14:22:07,745 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:22:07,745 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:22:18,870 - INFO - [FORM] Email: k8ztp00ufk6.8169@outlook.com
+2025-10-27 14:22:56,817 - INFO - [FORM] Month: August
+2025-10-27 14:22:59,229 - INFO - [FORM] Day: 1
+2025-10-27 14:23:01,598 - INFO - [FORM] Year: 2001
+2025-10-27 14:23:05,423 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:23:08,531 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:23:08,757 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761549788.png
+2025-10-27 14:23:18,782 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:23:19,992 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:23:30,974 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 14:23:30,996 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:23:33,926 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:23:33,944 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:23:36,404 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761549816.png
+2025-10-27 14:23:46,432 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:23:46,433 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:23:46,445 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:23:56,494 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:23:56,494 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:23:59,507 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:24:09,526 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:24:09,527 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:24:12,536 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:24:22,542 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:24:22,544 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:24:25,555 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:24:37,712 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:24:37,712 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:24:38,286 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:24:41,818 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:24:41,824 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:24:41,827 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:24:41,830 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:24:41,832 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:24:41,836 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:24:41,838 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:24:41,841 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:24:41,843 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:24:41,846 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:24:41,846 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:24:41,846 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:24:41,846 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:24:41,851 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:24:47,977 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:24:47,977 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:24:47,977 - INFO - ============================================================
+2025-10-27 14:24:47,977 - INFO - [ATTEMPT 1/1] Starting @ 14:24:47
+2025-10-27 14:24:47,977 - INFO - ============================================================
+2025-10-27 14:24:47,977 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:24:51,907 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:24:51,908 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:25:05,081 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761549904.png
+2025-10-27 14:25:15,125 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:25:17,055 - INFO - [USER] tcey0qul87k.7282@outlook.com
+2025-10-27 14:25:17,055 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:25:17,055 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:25:28,278 - INFO - [FORM] Email: tcey0qul87k.7282@outlook.com
+2025-10-27 14:25:39,214 - INFO - [FORM] Username: tcey0qul87k30
+2025-10-27 14:25:44,572 - INFO - [FORM] Gender set via Select: female
+2025-10-27 14:25:45,925 - INFO - [FORM] Gender completed: female
+2025-10-27 14:25:49,555 - INFO - [FORM] Month: September
+2025-10-27 14:25:51,478 - INFO - [FORM] Day: 22
+2025-10-27 14:25:53,963 - INFO - [FORM] Year: 2000
+2025-10-27 14:26:09,993 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:26:11,553 - INFO - [FORM] Country completed: United States
+2025-10-27 14:26:12,638 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:26:16,247 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:26:16,519 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761549976.png
+2025-10-27 14:26:26,555 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:26:27,770 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:26:31,460 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:26:32,253 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:26:35,382 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:26:35,409 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:26:37,931 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761549997.png
+2025-10-27 14:26:47,999 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:26:47,999 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:26:48,014 - ERROR - [FAIL] Registration not available (Bot detected)
+2025-10-27 14:26:48,238 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761550008.png
+2025-10-27 14:26:48,238 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:26:48,238 - INFO - ============================================================
+2025-10-27 14:26:48,238 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:26:48,238 - INFO - ============================================================
+2025-10-27 14:26:48,238 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:26:58,245 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:26:58,590 - INFO - [CLOSE] Browser closed
+2025-10-27 14:28:23,611 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:28:23,611 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:28:24,166 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:28:27,582 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:28:27,587 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:28:27,589 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:28:27,592 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:28:27,595 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:28:27,595 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:28:27,599 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:28:27,602 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:28:27,602 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:28:27,604 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:28:27,608 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:28:27,610 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:28:27,610 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:28:27,610 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:28:35,357 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:28:35,357 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:28:35,357 - INFO - ============================================================
+2025-10-27 14:28:35,357 - INFO - [ATTEMPT 1/1] Starting @ 14:28:35
+2025-10-27 14:28:35,357 - INFO - ============================================================
+2025-10-27 14:28:35,357 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:28:40,288 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:28:40,288 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:28:52,040 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761550131.png
+2025-10-27 14:29:02,096 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:29:03,271 - INFO - [USER] lwgod5wdlvj.2005@outlook.com
+2025-10-27 14:29:03,271 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:29:03,271 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:29:14,249 - INFO - [FORM] Email: lwgod5wdlvj.2005@outlook.com
+2025-10-27 14:29:52,486 - INFO - [FORM] Month: July
+2025-10-27 14:29:54,711 - INFO - [FORM] Day: 23
+2025-10-27 14:29:56,828 - INFO - [FORM] Year: 1996
+2025-10-27 14:30:00,404 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:30:03,131 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:30:03,399 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761550203.png
+2025-10-27 14:30:13,461 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:30:15,265 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:30:26,211 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 14:30:26,236 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:30:33,764 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:30:33,794 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:30:36,728 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761550236.png
+2025-10-27 14:30:46,770 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:30:46,770 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:30:46,783 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:30:56,793 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:30:56,793 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:30:59,796 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:31:09,827 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:31:09,827 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:31:12,840 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:31:22,855 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:31:22,857 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:31:25,857 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:31:35,898 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:31:35,898 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:31:38,913 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:31:48,922 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:31:48,922 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:31:51,936 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:31:52,775 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:31:52,775 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:31:53,425 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:31:58,318 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:31:58,322 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:31:58,326 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:31:58,327 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:31:58,329 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:31:58,332 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:31:58,334 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:31:58,335 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:31:58,338 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:31:58,340 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:31:58,342 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:31:58,344 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:31:58,344 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:31:58,344 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:32:01,960 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:32:01,960 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:32:04,612 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:32:04,612 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:32:04,612 - INFO - ============================================================
+2025-10-27 14:32:04,612 - INFO - [ATTEMPT 1/1] Starting @ 14:32:04
+2025-10-27 14:32:04,612 - INFO - ============================================================
+2025-10-27 14:32:04,612 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:32:04,973 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:32:08,137 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:32:08,137 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:32:15,020 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:32:15,022 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:32:18,034 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:32:22,398 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761550342.png
+2025-10-27 14:32:28,086 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:32:28,086 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:32:31,104 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:32:32,435 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:32:33,712 - INFO - [USER] x9ojy7qk2nt.1814@outlook.com
+2025-10-27 14:32:33,713 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:32:33,713 - INFO - [HUMAN] Simulating reading page...
+2025-10-27 14:32:41,125 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:32:41,125 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:32:44,292 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:32:47,124 - INFO - [FORM] Email: x9ojy7qk2nt.1814@outlook.com
+2025-10-27 14:32:50,893 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 14:32:50,894 - INFO - [STRATEGY] Skipping optional fields to mimic short form behavior
+2025-10-27 14:32:54,255 - INFO - [FORM] Month: August
+2025-10-27 14:32:54,319 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:32:54,319 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:32:56,520 - INFO - [FORM] Day: 25
+2025-10-27 14:32:57,332 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:32:58,988 - INFO - [FORM] Year: 1997
+2025-10-27 14:33:02,353 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:33:05,651 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:33:05,953 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761550385.png
+2025-10-27 14:33:07,392 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:07,392 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:33:10,404 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:33:15,984 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:17,794 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:33:20,422 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:20,422 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:33:21,697 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:33:22,813 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:33:23,442 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:33:25,592 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:33:25,627 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:33:27,849 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761550407.png
+2025-10-27 14:33:33,456 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:33,456 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:33:36,466 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:33:37,914 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:37,914 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:33:46,493 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:46,493 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:33:49,501 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:33:54,183 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:33:55,199 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:33:56,216 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:33:57,233 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:33:58,240 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:33:59,268 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:33:59,554 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:33:59,554 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:34:00,285 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:01,303 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:02,318 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:02,571 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:34:03,335 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:04,353 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:05,372 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:06,391 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:07,406 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:08,422 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:09,439 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:10,457 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:11,474 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:12,493 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:12,612 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:34:12,612 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:34:13,510 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:14,527 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:15,545 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:15,627 - WARNING - [CAPTCHA] CAPTCHA detected after submit
+2025-10-27 14:34:16,563 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:17,581 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:34:18,587 - ERROR - [TIMEOUT] No response after 40s
+2025-10-27 14:34:18,592 - INFO - [INFO] Final URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 14:34:18,807 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761550458.png
+2025-10-27 14:34:18,807 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:34:18,808 - INFO - ============================================================
+2025-10-27 14:34:18,808 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:34:18,808 - INFO - ============================================================
+2025-10-27 14:34:18,808 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:34:25,651 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:34:25,651 - INFO - [CAPTCHA] Solved, waiting for next page...
+2025-10-27 14:34:28,808 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:34:29,096 - INFO - [CLOSE] Browser closed
+2025-10-27 14:36:17,980 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:36:17,980 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:36:18,541 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:36:22,944 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:36:22,950 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:36:22,952 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:36:22,954 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:36:22,957 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:36:22,959 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:36:22,961 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:36:22,963 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:36:22,966 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:36:22,968 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:36:22,969 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:36:22,971 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:36:22,971 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:36:22,972 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:36:28,063 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:36:28,063 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:36:28,063 - INFO - ============================================================
+2025-10-27 14:36:28,063 - INFO - [ATTEMPT 1/1] Starting @ 14:36:28
+2025-10-27 14:36:28,063 - INFO - ============================================================
+2025-10-27 14:36:28,063 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:36:33,032 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:36:33,032 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:36:44,947 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761550604.png
+2025-10-27 14:36:54,978 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:36:56,118 - INFO - [USER] s1e8d062i5i.5308@outlook.com
+2025-10-27 14:36:56,118 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:36:56,118 - INFO - [HUMAN] Quick page check...
+2025-10-27 14:37:01,394 - INFO - [FORM] Email: s1e8d062i5i.5308@outlook.com
+2025-10-27 14:37:02,249 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 14:37:02,249 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 14:37:05,838 - INFO - [FORM] Username: s1e8d062i5i98
+2025-10-27 14:37:06,475 - INFO - [FORM] Gender set via Select: male
+2025-10-27 14:37:06,489 - INFO - [FORM] Gender: male
+2025-10-27 14:37:11,272 - INFO - [FORM] Month: February
+2025-10-27 14:37:13,881 - INFO - [FORM] Day: 25
+2025-10-27 14:37:16,200 - INFO - [FORM] Year: 1995
+2025-10-27 14:37:29,435 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:37:29,459 - INFO - [FORM] Country: United States
+2025-10-27 14:37:31,016 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:37:34,364 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:37:34,601 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761550654.png
+2025-10-27 14:37:44,631 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:37:46,011 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:37:49,834 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:37:50,667 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:37:52,917 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:37:52,940 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:37:55,185 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761550674.png
+2025-10-27 14:38:05,190 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:38:05,190 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:38:21,473 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:22,492 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:23,510 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:24,528 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:25,544 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:26,563 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:27,580 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:28,602 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:29,623 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:30,644 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:31,665 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:32,682 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:33,700 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:34,716 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:35,735 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:36,753 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:37,771 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:38,790 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:39,817 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:40,835 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:41,851 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:42,869 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:38:43,887 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:40:19,272 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:40:19,273 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:40:19,836 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:40:24,202 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:40:24,210 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:40:24,212 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:40:24,214 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:40:24,217 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:40:24,219 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:40:24,221 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:40:24,223 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:40:24,225 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:40:24,227 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:40:24,230 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:40:24,232 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:40:24,232 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:40:24,233 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:40:30,097 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:40:30,097 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:40:30,097 - INFO - ============================================================
+2025-10-27 14:40:30,097 - INFO - [ATTEMPT 1/1] Starting @ 14:40:30
+2025-10-27 14:40:30,097 - INFO - ============================================================
+2025-10-27 14:40:30,097 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:40:33,400 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:40:33,400 - INFO - [HUMAN] Initial page observation...
+2025-10-27 14:40:46,478 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761550846.png
+2025-10-27 14:40:56,495 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:40:58,034 - INFO - [USER] mua2dnuygm4.3580@gmail.com
+2025-10-27 14:40:58,034 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 14:40:58,034 - INFO - [HUMAN] Quick page check...
+2025-10-27 14:41:03,304 - INFO - [FORM] Email: mua2dnuygm4.3580@gmail.com
+2025-10-27 14:41:03,935 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 14:41:03,935 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 14:41:07,038 - INFO - [FORM] Username: mua2dnuygm419
+2025-10-27 14:41:07,590 - INFO - [FORM] Gender set via Select: female
+2025-10-27 14:41:07,601 - INFO - [FORM] Gender: female
+2025-10-27 14:41:12,454 - INFO - [FORM] Month: March
+2025-10-27 14:41:14,696 - INFO - [FORM] Day: 9
+2025-10-27 14:41:17,208 - INFO - [FORM] Year: 2001
+2025-10-27 14:41:30,108 - INFO - [FORM] Country set via Select: United States
+2025-10-27 14:41:30,126 - INFO - [FORM] Country: United States
+2025-10-27 14:41:31,346 - INFO - [HUMAN] Quick form review...
+2025-10-27 14:41:35,247 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 14:41:35,490 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761550895.png
+2025-10-27 14:41:45,527 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:41:46,612 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 14:41:50,001 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 14:41:50,983 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 14:41:53,881 - INFO - [SUBMIT] Clicking submit button...
+2025-10-27 14:41:53,907 - INFO - [SUBMIT] Form submitted (JS click)
+2025-10-27 14:41:56,369 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761550916.png
+2025-10-27 14:42:06,382 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 14:42:06,382 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 14:42:22,652 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:23,673 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:24,690 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:25,707 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:26,723 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:27,739 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:28,750 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:29,769 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:30,793 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:31,810 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:32,828 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:33,846 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:34,862 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:35,879 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:36,897 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:37,915 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:38,929 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:39,952 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:40,962 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:41,983 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:42,999 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:44,011 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:45,035 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:46,053 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 14:42:47,058 - ERROR - [TIMEOUT] No response after 40s
+2025-10-27 14:42:47,062 - INFO - [INFO] Final URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 14:42:47,269 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761550967.png
+2025-10-27 14:42:47,269 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 14:42:47,269 - INFO - ============================================================
+2025-10-27 14:42:47,269 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 14:42:47,269 - INFO - ============================================================
+2025-10-27 14:42:47,269 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 14:42:57,275 - INFO - [CLOSE] Closing browser...
+2025-10-27 14:42:57,618 - INFO - [CLOSE] Browser closed
+2025-10-27 14:55:42,074 - INFO - [EMAIL] Loaded 0 emails from file
+2025-10-27 14:55:42,074 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:55:42,074 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:55:42,695 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:56:57,046 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 14:56:57,047 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:56:57,047 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:56:57,616 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:57:01,208 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:57:01,211 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:57:01,211 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:57:01,211 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:57:01,211 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:57:01,211 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:57:01,227 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:57:01,229 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:57:01,229 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:57:01,229 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:57:01,229 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:57:01,229 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:57:01,229 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:57:01,229 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:57:07,930 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:57:07,930 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:59:34,354 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 14:59:34,354 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 14:59:34,354 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 14:59:34,947 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 14:59:38,822 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 14:59:38,827 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 14:59:38,830 - INFO - [STEALTH] Injected: chrome
+2025-10-27 14:59:38,832 - INFO - [STEALTH] Injected: permissions
+2025-10-27 14:59:38,835 - INFO - [STEALTH] Injected: plugins
+2025-10-27 14:59:38,837 - INFO - [STEALTH] Injected: languages
+2025-10-27 14:59:38,839 - INFO - [STEALTH] Injected: canvas
+2025-10-27 14:59:38,842 - INFO - [STEALTH] Injected: webgl
+2025-10-27 14:59:38,843 - INFO - [STEALTH] Injected: battery
+2025-10-27 14:59:38,848 - INFO - [STEALTH] Injected: connection
+2025-10-27 14:59:38,850 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 14:59:38,852 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 14:59:38,853 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 14:59:38,854 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 14:59:45,470 - INFO - [DRIVER] Google visit complete
+2025-10-27 14:59:45,470 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 14:59:45,470 - INFO - ============================================================
+2025-10-27 14:59:45,470 - INFO - [ATTEMPT 1/1] Starting @ 14:59:45
+2025-10-27 14:59:45,470 - INFO - ============================================================
+2025-10-27 14:59:45,470 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 14:59:48,955 - INFO - [NAV] Page loaded successfully
+2025-10-27 14:59:48,955 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:00:03,457 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761552003.png
+2025-10-27 15:00:13,480 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:00:14,889 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 15:00:14,889 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:00:14,889 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:00:14,889 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:00:22,043 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:00:22,666 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 15:00:22,666 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 15:00:25,934 - INFO - [FORM] Username: 7a1d5qc89yw50
+2025-10-27 15:00:26,690 - INFO - [FORM] Gender set via Select: female
+2025-10-27 15:00:26,702 - INFO - [FORM] Gender: female
+2025-10-27 15:00:30,905 - INFO - [FORM] Month: February
+2025-10-27 15:00:33,232 - INFO - [FORM] Day: 2
+2025-10-27 15:00:35,447 - INFO - [FORM] Year: 2000
+2025-10-27 15:00:48,368 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:00:48,379 - INFO - [FORM] Country: United States
+2025-10-27 15:00:49,516 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:00:54,220 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:00:54,466 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761552054.png
+2025-10-27 15:01:04,516 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:01:05,651 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:01:09,155 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 15:01:09,876 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:01:12,366 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:01:12,422 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:01:14,954 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761552074.png
+2025-10-27 15:01:24,989 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:01:24,989 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:01:41,297 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:42,317 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:43,337 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:44,358 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:45,377 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:46,395 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:47,412 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:48,437 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:49,456 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:50,474 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:51,493 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:52,512 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:53,530 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:54,548 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:55,570 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:56,586 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:57,604 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:58,625 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:01:59,643 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:02:00,663 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:02:01,676 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:05:30,814 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 15:05:30,814 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 15:05:30,814 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 15:05:31,526 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:05:35,602 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 15:05:35,606 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:05:35,608 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:05:35,612 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:05:35,612 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:05:35,612 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:05:35,619 - INFO - [STEALTH] Injected: canvas
+2025-10-27 15:05:35,622 - INFO - [STEALTH] Injected: webgl
+2025-10-27 15:05:35,624 - INFO - [STEALTH] Injected: battery
+2025-10-27 15:05:35,626 - INFO - [STEALTH] Injected: connection
+2025-10-27 15:05:35,628 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 15:05:35,630 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 15:05:35,630 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 15:05:35,631 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 15:05:42,546 - INFO - [DRIVER] Google visit complete
+2025-10-27 15:05:42,546 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 15:05:42,546 - INFO - ============================================================
+2025-10-27 15:05:42,546 - INFO - [ATTEMPT 1/1] Starting @ 15:05:42
+2025-10-27 15:05:42,546 - INFO - ============================================================
+2025-10-27 15:05:42,546 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 15:05:46,163 - INFO - [NAV] Page loaded successfully
+2025-10-27 15:05:46,163 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:05:59,996 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761552359.png
+2025-10-27 15:06:10,052 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:06:11,548 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 15:06:11,548 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:06:11,548 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:06:11,548 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:06:18,708 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:06:53,129 - INFO - [FORM] Month: May
+2025-10-27 15:06:55,485 - INFO - [FORM] Day: 24
+2025-10-27 15:06:57,382 - INFO - [FORM] Year: 1998
+2025-10-27 15:07:00,426 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:07:04,387 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:07:04,638 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761552424.png
+2025-10-27 15:07:14,684 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:07:16,478 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:07:28,435 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 15:07:28,459 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:07:31,593 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:07:31,683 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:07:34,700 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761552454.png
+2025-10-27 15:07:44,726 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:07:44,726 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:08:01,960 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:02,978 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:03,996 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:05,003 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:06,030 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:07,047 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:08,064 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:09,085 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:10,100 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:11,117 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:12,130 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:13,152 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:14,163 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:15,190 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:16,208 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:17,226 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:18,241 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:19,247 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:20,276 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:21,294 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:22,312 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:23,327 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:24,335 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:25,364 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:08:26,370 - ERROR - [TIMEOUT] No response after 40s
+2025-10-27 15:08:26,370 - INFO - [INFO] Final URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 15:08:26,571 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761552506.png
+2025-10-27 15:08:26,571 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 15:08:26,571 - INFO - ============================================================
+2025-10-27 15:08:26,571 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 15:08:26,571 - INFO - ============================================================
+2025-10-27 15:08:26,571 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 15:08:36,576 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:08:36,868 - INFO - [CLOSE] Browser closed
+2025-10-27 15:10:00,968 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 15:10:00,968 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 15:10:00,968 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 15:10:01,634 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:10:06,080 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 15:10:06,085 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:10:06,087 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:10:06,088 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:10:06,091 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:10:06,092 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:10:06,094 - INFO - [STEALTH] Injected: canvas
+2025-10-27 15:10:06,096 - INFO - [STEALTH] Injected: webgl
+2025-10-27 15:10:06,099 - INFO - [STEALTH] Injected: battery
+2025-10-27 15:10:06,100 - INFO - [STEALTH] Injected: connection
+2025-10-27 15:10:06,103 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 15:10:06,105 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 15:10:06,105 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 15:10:06,105 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 15:10:12,879 - INFO - [DRIVER] Google visit complete
+2025-10-27 15:10:12,879 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 15:10:12,879 - INFO - ============================================================
+2025-10-27 15:10:12,879 - INFO - [ATTEMPT 1/1] Starting @ 15:10:12
+2025-10-27 15:10:12,879 - INFO - ============================================================
+2025-10-27 15:10:12,879 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 15:10:16,092 - INFO - [NAV] Page loaded successfully
+2025-10-27 15:10:16,092 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:10:26,416 - ERROR - [NAV] Failed: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6dc48]
+	(No symbol) [0x0xa5ce80]
+	(No symbol) [0x0xa7b81b]
+	(No symbol) [0x0xae1c25]
+	(No symbol) [0x0xafc4d9]
+	(No symbol) [0x0xadafc6]
+	(No symbol) [0x0xaac2ca]
+	(No symbol) [0x0xaad154]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	GetHandleVerifier [0x0xc88158+100072]
+	GetHandleVerifier [0x0xc882f0+100480]
+	GetHandleVerifier [0x0xc725aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 15:10:26,417 - ERROR - [ATTEMPT 1] Navigation failed
+2025-10-27 15:10:26,417 - INFO - ============================================================
+2025-10-27 15:10:26,417 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 15:10:26,417 - INFO - ============================================================
+2025-10-27 15:10:26,417 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 15:10:36,418 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:10:36,559 - INFO - [CLOSE] Browser closed
+2025-10-27 15:20:32,444 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 15:20:32,444 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 15:20:32,444 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 15:20:33,110 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:20:37,073 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 15:20:37,080 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:20:37,084 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:20:37,086 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:20:37,088 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:20:37,090 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:20:37,092 - INFO - [STEALTH] Injected: canvas
+2025-10-27 15:20:37,094 - INFO - [STEALTH] Injected: webgl
+2025-10-27 15:20:37,097 - INFO - [STEALTH] Injected: battery
+2025-10-27 15:20:37,099 - INFO - [STEALTH] Injected: connection
+2025-10-27 15:20:37,102 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 15:20:37,104 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 15:20:37,104 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 15:20:37,105 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 15:20:44,557 - INFO - [DRIVER] Google visit complete
+2025-10-27 15:20:44,557 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 15:20:44,557 - INFO - ============================================================
+2025-10-27 15:20:44,557 - INFO - [ATTEMPT 1/1] Starting @ 15:20:44
+2025-10-27 15:20:44,557 - INFO - ============================================================
+2025-10-27 15:20:44,557 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 15:20:47,574 - INFO - [NAV] Page loaded successfully
+2025-10-27 15:20:47,574 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:21:01,365 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761553261.png
+2025-10-27 15:21:11,417 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:21:12,561 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 15:21:12,561 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:21:12,561 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:21:12,561 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:21:19,938 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:21:20,666 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 15:21:20,666 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 15:21:23,483 - INFO - [FORM] Username: 40614pnte6s70
+2025-10-27 15:21:24,450 - INFO - [FORM] Gender set via Select: male
+2025-10-27 15:21:24,455 - INFO - [FORM] Gender: male
+2025-10-27 15:21:28,958 - INFO - [FORM] Month: August
+2025-10-27 15:21:31,123 - INFO - [FORM] Day: 3
+2025-10-27 15:21:33,027 - INFO - [FORM] Year: 2007
+2025-10-27 15:21:46,583 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:21:46,589 - INFO - [FORM] Country: United States
+2025-10-27 15:21:47,836 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:21:52,463 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:21:52,695 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761553312.png
+2025-10-27 15:22:02,708 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:22:03,790 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:22:06,878 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 15:22:07,665 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:22:11,059 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:22:11,106 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:22:13,782 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761553333.png
+2025-10-27 15:22:23,851 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:22:23,851 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:22:27,930 - WARNING - [DETECT] Form changed to LONG form - need to fill additional fields!
+2025-10-27 15:22:28,080 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761553347.png
+2025-10-27 15:22:28,080 - INFO - [REDIRECT] Rumble wants long form, filling additional fields...
+2025-10-27 15:22:29,137 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:22:29,137 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:22:31,004 - ERROR - [FORM] Error: Message: element click intercepted: Element <input id="input-id-f2rtyiz2a" name="email" placeholder="" required="" type="text" hiderequiredasterisk="true" autocapitalize="off" autocomplete="email" autocorrect="off" inputmode="email" spellcheck="false" class="bg-transparent text-field w-full appearance-none  rounded-lg border-0 outline-none bg-gray-25 dark:bg-background h-12 py-2 pl-2.5 pr-2.5 text-primary opacity-75 peer" disabled="" readonly=""> is not clickable at point (1105, 292). Other element would receive the click: <div id="global-ui-fatal-error-container" class="fatal-ui fatal-ui--error flex space-y-4 flex flex-col bg-subtle-highlight items-center justify-center content-center text-center">...</div>
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6dc48]
+	(No symbol) [0x0xabec10]
+	(No symbol) [0x0xabcf73]
+	(No symbol) [0x0xabaa17]
+	(No symbol) [0x0xab9c8d]
+	(No symbol) [0x0xaae115]
+	(No symbol) [0x0xadb1cc]
+	(No symbol) [0x0xaadb74]
+	(No symbol) [0x0xadb384]
+	(No symbol) [0x0xafcba7]
+	(No symbol) [0x0xadafc6]
+	(No symbol) [0x0xaac2ca]
+	(No symbol) [0x0xaad154]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	GetHandleVerifier [0x0xc88158+100072]
+	GetHandleVerifier [0x0xc882f0+100480]
+	GetHandleVerifier [0x0xc725aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 15:22:31,005 - ERROR - [ATTEMPT 1] Long form fill failed
+2025-10-27 15:22:31,158 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_07_long_form_error_1761553351.png
+2025-10-27 15:22:31,158 - INFO - ============================================================
+2025-10-27 15:22:31,158 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 15:22:31,158 - INFO - ============================================================
+2025-10-27 15:22:31,158 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 15:22:41,160 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:22:41,515 - INFO - [CLOSE] Browser closed
+2025-10-27 15:25:23,508 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 15:25:23,508 - INFO - [CAPTCHA] Solver initialized
+2025-10-27 15:25:23,509 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 15:25:24,184 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:25:27,437 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 15:25:27,443 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:25:27,445 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:25:27,448 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:25:27,450 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:25:27,452 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:25:27,455 - INFO - [STEALTH] Injected: canvas
+2025-10-27 15:25:27,459 - INFO - [STEALTH] Injected: webgl
+2025-10-27 15:25:27,463 - INFO - [STEALTH] Injected: battery
+2025-10-27 15:25:27,465 - INFO - [STEALTH] Injected: connection
+2025-10-27 15:25:27,468 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 15:25:27,469 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 15:25:27,470 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 15:25:27,470 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 15:25:35,348 - INFO - [DRIVER] Google visit complete
+2025-10-27 15:25:35,348 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 15:25:35,348 - INFO - ============================================================
+2025-10-27 15:25:35,348 - INFO - [ATTEMPT 1/1] Starting @ 15:25:35
+2025-10-27 15:25:35,348 - INFO - ============================================================
+2025-10-27 15:25:35,348 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 15:25:39,711 - INFO - [NAV] Page loaded successfully
+2025-10-27 15:25:39,711 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:25:53,142 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761553552.png
+2025-10-27 15:26:03,178 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:26:04,778 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 15:26:04,778 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:26:04,778 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:26:04,778 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:26:12,028 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:26:12,593 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 15:26:12,593 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 15:26:15,425 - INFO - [FORM] Username: 40mcp6y3qxk50
+2025-10-27 15:26:16,442 - INFO - [FORM] Gender set via Select: female
+2025-10-27 15:26:16,450 - INFO - [FORM] Gender: female
+2025-10-27 15:26:20,812 - INFO - [FORM] Month: December
+2025-10-27 15:26:22,820 - INFO - [FORM] Day: 10
+2025-10-27 15:26:25,332 - INFO - [FORM] Year: 2005
+2025-10-27 15:26:38,811 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:26:38,818 - INFO - [FORM] Country: United States
+2025-10-27 15:26:40,147 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:26:44,372 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:26:44,575 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761553604.png
+2025-10-27 15:26:54,640 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:26:56,399 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:26:59,482 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 15:27:00,578 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:27:03,336 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:27:03,385 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:27:05,859 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761553625.png
+2025-10-27 15:27:15,905 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:27:15,905 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:27:19,990 - WARNING - [DETECT] Form changed to LONG form - need to fill additional fields!
+2025-10-27 15:27:20,149 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761553639.png
+2025-10-27 15:27:20,149 - INFO - [REDIRECT] Rumble wants long form, filling additional fields...
+2025-10-27 15:27:21,748 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:27:21,748 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:27:23,749 - ERROR - [FORM] Error: Message: element click intercepted: Element <input id="input-id-h2w4vt4gq" name="email" placeholder="" required="" type="text" hiderequiredasterisk="true" autocapitalize="off" autocomplete="email" autocorrect="off" inputmode="email" spellcheck="false" class="bg-transparent text-field w-full appearance-none  rounded-lg border-0 outline-none bg-gray-25 dark:bg-background h-12 py-2 pl-2.5 pr-2.5 text-primary opacity-75 peer" disabled="" readonly=""> is not clickable at point (1103, 292). Other element would receive the click: <div id="global-ui-fatal-error-container" class="fatal-ui fatal-ui--error flex space-y-4 flex flex-col bg-subtle-highlight items-center justify-center content-center text-center">...</div>
+  (Session info: chrome=141.0.7390.123)
+Stacktrace:
+	GetHandleVerifier [0x0xc7fe43+66515]
+	GetHandleVerifier [0x0xc7fe84+66580]
+	(No symbol) [0x0xa6dc48]
+	(No symbol) [0x0xabec10]
+	(No symbol) [0x0xabcf73]
+	(No symbol) [0x0xabaa17]
+	(No symbol) [0x0xab9c8d]
+	(No symbol) [0x0xaae115]
+	(No symbol) [0x0xadb1cc]
+	(No symbol) [0x0xaadb74]
+	(No symbol) [0x0xadb384]
+	(No symbol) [0x0xafcba7]
+	(No symbol) [0x0xadafc6]
+	(No symbol) [0x0xaac2ca]
+	(No symbol) [0x0xaad154]
+	GetHandleVerifier [0x0xed7353+2521315]
+	GetHandleVerifier [0x0xed22d3+2500707]
+	GetHandleVerifier [0x0xca7c94+229924]
+	GetHandleVerifier [0x0xc981f8+165768]
+	GetHandleVerifier [0x0xc9ecad+193085]
+	GetHandleVerifier [0x0xc88158+100072]
+	GetHandleVerifier [0x0xc882f0+100480]
+	GetHandleVerifier [0x0xc725aa+11066]
+	BaseThreadInitThunk [0x0x77395d49+25]
+	RtlInitializeExceptionChain [0x0x77e6d6db+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77e6d661+561]
+
+2025-10-27 15:27:23,749 - ERROR - [ATTEMPT 1] Long form fill failed
+2025-10-27 15:27:24,068 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_07_long_form_error_1761553643.png
+2025-10-27 15:27:24,068 - INFO - ============================================================
+2025-10-27 15:27:24,068 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 15:27:24,068 - INFO - ============================================================
+2025-10-27 15:27:24,068 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 15:27:34,069 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:27:34,370 - INFO - [CLOSE] Browser closed
+2025-10-27 15:29:50,883 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 15:29:50,883 - INFO - [CAPTCHA] Solver initialized with YesCaptcha
+2025-10-27 15:29:50,883 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 15:29:51,565 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:29:56,515 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: canvas
+2025-10-27 15:29:56,520 - INFO - [STEALTH] Injected: webgl
+2025-10-27 15:29:56,534 - INFO - [STEALTH] Injected: battery
+2025-10-27 15:29:56,534 - INFO - [STEALTH] Injected: connection
+2025-10-27 15:29:56,538 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 15:29:56,538 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 15:29:56,538 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 15:29:56,538 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 15:30:02,469 - INFO - [DRIVER] Google visit complete
+2025-10-27 15:30:02,469 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 15:30:02,469 - INFO - ============================================================
+2025-10-27 15:30:02,469 - INFO - [ATTEMPT 1/1] Starting @ 15:30:02
+2025-10-27 15:30:02,469 - INFO - ============================================================
+2025-10-27 15:30:02,469 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 15:30:05,892 - INFO - [NAV] Page loaded successfully
+2025-10-27 15:30:05,892 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:30:19,076 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761553818.png
+2025-10-27 15:30:29,098 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:30:30,633 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 15:30:30,633 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:30:30,633 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:30:30,633 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:30:37,186 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:31:12,637 - INFO - [FORM] Month: May
+2025-10-27 15:31:14,835 - INFO - [FORM] Day: 13
+2025-10-27 15:31:16,958 - INFO - [FORM] Year: 2004
+2025-10-27 15:31:20,288 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:31:24,911 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:31:25,159 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761553884.png
+2025-10-27 15:31:35,176 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:31:36,979 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:31:49,037 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 15:31:49,056 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:31:51,917 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:31:51,992 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:31:55,128 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761553914.png
+2025-10-27 15:32:05,158 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:32:05,158 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:34:31,978 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:34:43,029 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:34:54,134 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:35:05,241 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:35:16,317 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:35:27,404 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:35:38,454 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:35:49,555 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:36:00,633 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:36:11,676 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:36:22,712 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:36:33,822 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:36:44,909 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:36:56,027 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:37:07,074 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:37:18,135 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:37:29,240 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:37:40,297 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:37:51,343 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:38:02,422 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:38:13,523 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:38:24,719 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:38:35,804 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:38:46,868 - WARNING - [TIMEOUT] Waiting too long, checking page state...
+2025-10-27 15:38:47,891 - ERROR - [TIMEOUT] No response after 40s
+2025-10-27 15:38:47,956 - INFO - [INFO] Final URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 15:38:48,989 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761554327.png
+2025-10-27 15:38:48,989 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 15:38:48,991 - INFO - ============================================================
+2025-10-27 15:38:48,991 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 15:38:48,991 - INFO - ============================================================
+2025-10-27 15:38:48,991 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 15:38:58,992 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:38:59,811 - INFO - [CLOSE] Browser closed
+2025-10-27 15:44:20,625 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 15:44:20,626 - INFO - [CAPTCHA] Solver initialized with YesCaptcha
+2025-10-27 15:44:20,626 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 15:44:21,242 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 15:44:25,203 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 15:44:25,209 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 15:44:25,211 - INFO - [STEALTH] Injected: chrome
+2025-10-27 15:44:25,215 - INFO - [STEALTH] Injected: permissions
+2025-10-27 15:44:25,216 - INFO - [STEALTH] Injected: plugins
+2025-10-27 15:44:25,216 - INFO - [STEALTH] Injected: languages
+2025-10-27 15:44:25,223 - INFO - [STEALTH] Injected: canvas
+2025-10-27 15:44:25,224 - INFO - [STEALTH] Injected: webgl
+2025-10-27 15:44:25,224 - INFO - [STEALTH] Injected: battery
+2025-10-27 15:44:25,230 - INFO - [STEALTH] Injected: connection
+2025-10-27 15:44:25,232 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 15:44:25,233 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 15:44:25,233 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 15:44:25,233 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 15:44:32,591 - INFO - [DRIVER] Google visit complete
+2025-10-27 15:44:32,591 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 15:44:32,591 - INFO - ============================================================
+2025-10-27 15:44:32,591 - INFO - [ATTEMPT 1/1] Starting @ 15:44:32
+2025-10-27 15:44:32,591 - INFO - ============================================================
+2025-10-27 15:44:32,591 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 15:44:35,845 - INFO - [NAV] Page loaded successfully
+2025-10-27 15:44:35,845 - INFO - [HUMAN] Initial page observation...
+2025-10-27 15:44:49,514 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761554689.png
+2025-10-27 15:45:11,575 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:45:13,233 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 15:45:13,233 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:45:13,233 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:45:13,233 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:45:19,957 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:45:55,709 - INFO - [FORM] Month: August
+2025-10-27 15:45:58,087 - INFO - [FORM] Day: 28
+2025-10-27 15:46:00,410 - INFO - [FORM] Year: 1995
+2025-10-27 15:46:03,385 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:46:06,825 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:46:07,090 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761554766.png
+2025-10-27 15:46:29,127 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:46:31,016 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:46:42,602 - INFO - [SUBMIT] No terms checkbox found
+2025-10-27 15:46:42,624 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:46:45,007 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:46:45,098 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:46:47,756 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761554807.png
+2025-10-27 15:47:11,214 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:47:11,214 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:47:15,303 - WARNING - [DETECT] Form changed to LONG form - need to fill additional fields!
+2025-10-27 15:47:15,671 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_06_result_1761554835.png
+2025-10-27 15:47:15,671 - INFO - [REDIRECT] Rumble wants long form, filling additional fields...
+2025-10-27 15:47:17,042 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 15:47:17,042 - INFO - [HUMAN] Quick page check...
+2025-10-27 15:47:23,905 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 15:47:24,697 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 15:47:24,697 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 15:47:27,769 - INFO - [FORM] Username: wwsbroddglg91
+2025-10-27 15:47:28,775 - INFO - [FORM] Gender set via Select: female
+2025-10-27 15:47:28,783 - INFO - [FORM] Gender: female
+2025-10-27 15:47:37,989 - INFO - [FORM] Month: August
+2025-10-27 15:47:43,385 - INFO - [FORM] Day: 28
+2025-10-27 15:47:49,203 - INFO - [FORM] Year: 1995
+2025-10-27 15:48:05,590 - INFO - [FORM] Country set via Select: United States
+2025-10-27 15:48:05,595 - INFO - [FORM] Country: United States
+2025-10-27 15:48:07,402 - INFO - [HUMAN] Quick form review...
+2025-10-27 15:48:25,981 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 15:48:26,313 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_07_long_form_filled_1761554905.png
+2025-10-27 15:48:48,367 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 15:48:50,152 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 15:48:58,487 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 15:48:59,470 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 15:49:05,439 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 15:49:05,498 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 15:49:08,575 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_08_long_form_submitted_1761554948.png
+2025-10-27 15:49:20,641 - INFO - [CAPTCHA] Turnstile widget found by class
+2025-10-27 15:49:20,651 - INFO - [CAPTCHA] Found sitekey with pattern: "sitekey":\s*"([^"]+)"
+2025-10-27 15:49:20,651 - INFO - [CAPTCHA] Sitekey: 0x4AAAAAAAQJGu-4FiDQVjFz
+2025-10-27 15:49:20,656 - INFO - [CAPTCHA] URL: https://auth.rumble.com/signup?theme=s&redirect_uri=https%3A%2F%2Frumble.com%2Fregister%2F%3Fref%3D&lang=en_US
+2025-10-27 15:49:20,656 - INFO - [CAPTCHA] Solving with YesCaptcha API...
+2025-10-27 15:49:20,657 - INFO - [CAPTCHA] Trying YesCaptcha API...
+2025-10-27 15:49:20,657 - INFO - [CAPTCHA] Creating YesCaptcha task...
+2025-10-27 15:49:21,349 - ERROR - [CAPTCHA] YesCaptcha error: 任务类型不正确或不受支持: 请检查 TurnstileTaskProxyLess
+2025-10-27 15:49:21,349 - ERROR - [CAPTCHA] All solvers failed or not configured
+2025-10-27 15:49:21,349 - ERROR - [CAPTCHA] Failed to get token from API
+2025-10-27 15:49:21,349 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 15:49:25,453 - WARNING - [DETECT] Form changed to LONG form - need to fill additional fields!
+2025-10-27 15:49:25,895 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_09_final_result_1761554965.png
+2025-10-27 15:49:25,895 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 15:49:25,895 - INFO - ============================================================
+2025-10-27 15:49:25,895 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 15:49:25,895 - INFO - ============================================================
+2025-10-27 15:49:25,895 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 15:49:35,902 - INFO - [CLOSE] Closing browser...
+2025-10-27 15:49:36,315 - INFO - [CLOSE] Browser closed
+2025-10-27 16:24:05,937 - INFO - [EMAIL] Loaded 256515 emails from file
+2025-10-27 16:24:05,937 - INFO - [CAPTCHA] Solver initialized with YesCaptcha
+2025-10-27 16:24:05,938 - INFO - [DRIVER] Initializing MAXIMUM stealth Chrome...
+2025-10-27 16:24:07,333 - INFO - [DRIVER] Browser opened, waiting for stabilization...
+2025-10-27 16:24:11,275 - INFO - [STEALTH] Injecting anti-detection scripts...
+2025-10-27 16:24:11,282 - INFO - [STEALTH] Injected: webdriver
+2025-10-27 16:24:11,284 - INFO - [STEALTH] Injected: chrome
+2025-10-27 16:24:11,287 - INFO - [STEALTH] Injected: permissions
+2025-10-27 16:24:11,289 - INFO - [STEALTH] Injected: plugins
+2025-10-27 16:24:11,293 - INFO - [STEALTH] Injected: languages
+2025-10-27 16:24:11,295 - INFO - [STEALTH] Injected: canvas
+2025-10-27 16:24:11,297 - INFO - [STEALTH] Injected: webgl
+2025-10-27 16:24:11,299 - INFO - [STEALTH] Injected: battery
+2025-10-27 16:24:11,301 - INFO - [STEALTH] Injected: connection
+2025-10-27 16:24:11,303 - INFO - [STEALTH] Injected: deviceMemory
+2025-10-27 16:24:11,305 - INFO - [STEALTH] Injected: hardwareConcurrency
+2025-10-27 16:24:11,305 - INFO - [STEALTH] All stealth scripts injected
+2025-10-27 16:24:11,306 - INFO - [DRIVER] Visiting Google first (look natural)...
+2025-10-27 16:24:18,539 - INFO - [DRIVER] Google visit complete
+2025-10-27 16:24:18,539 - INFO - [DRIVER] ULTIMATE Chrome initialized successfully
+2025-10-27 16:24:18,539 - INFO - ============================================================
+2025-10-27 16:24:18,539 - INFO - [ATTEMPT 1/1] Starting @ 16:24:18
+2025-10-27 16:24:18,539 - INFO - ============================================================
+2025-10-27 16:24:18,539 - INFO - [NAV] Navigating to: https://rumble.com/register/
+2025-10-27 16:24:22,669 - INFO - [NAV] Page loaded successfully
+2025-10-27 16:24:22,670 - INFO - [HUMAN] Initial page observation...
+2025-10-27 16:24:36,883 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_01_loaded_1761557076.png
+2025-10-27 16:24:58,985 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 16:25:00,272 - INFO - [EMAIL] Using email from file (1/256515)
+2025-10-27 16:25:00,272 - INFO - [USER] PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 16:25:00,272 - INFO - [FORM] Filling form with human behavior...
+2025-10-27 16:25:00,272 - INFO - [HUMAN] Quick page check...
+2025-10-27 16:25:07,639 - INFO - [FORM] Email: PITVNcommunity87894059@npsypr1.onmicrosoft.com
+2025-10-27 16:25:08,248 - INFO - [FORM] Long form detected (username=True, gender=True, country=True)
+2025-10-27 16:25:08,249 - INFO - [STRATEGY] Filling ALL fields QUICKLY like experienced user
+2025-10-27 16:25:11,249 - INFO - [FORM] Username: 19rkipdtis957
+2025-10-27 16:25:12,304 - INFO - [FORM] Gender set via Select: female
+2025-10-27 16:25:12,318 - INFO - [FORM] Gender: female
+2025-10-27 16:25:16,368 - INFO - [FORM] Month: March
+2025-10-27 16:25:18,965 - INFO - [FORM] Day: 14
+2025-10-27 16:25:21,277 - INFO - [FORM] Year: 2007
+2025-10-27 16:25:34,559 - INFO - [FORM] Country set via Select: United States
+2025-10-27 16:25:34,565 - INFO - [FORM] Country: United States
+2025-10-27 16:25:36,335 - INFO - [HUMAN] Quick form review...
+2025-10-27 16:25:40,129 - INFO - [FORM] Form filled successfully with human behavior
+2025-10-27 16:25:40,387 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_03_filled_1761557140.png
+2025-10-27 16:26:02,473 - INFO - [CAPTCHA] No CAPTCHA detected
+2025-10-27 16:26:04,289 - INFO - [SUBMIT] Looking for submit button...
+2025-10-27 16:26:08,069 - INFO - [SUBMIT] Terms checkbox checked
+2025-10-27 16:26:08,869 - INFO - [SUBMIT] Found button with XPath: //button[contains(normalize-space(), 'Next')]
+2025-10-27 16:26:11,324 - INFO - [SUBMIT] Pressing ENTER to submit...
+2025-10-27 16:26:11,379 - INFO - [SUBMIT] Form submitted (ENTER key)
+2025-10-27 16:26:14,594 - INFO - [SCREENSHOT] C:\rumble-tool\python\logs\screenshot_attempt1_05_submitted_1761557174.png
+2025-10-27 16:26:26,623 - ERROR - [CAPTCHA] Error: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-10-27 16:26:26,803 - INFO - [WAIT] Waiting up to 40s for result...
+2025-10-27 16:26:30,887 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA16060>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f89d372ac8918b3e521effc7026a3170/url
+2025-10-27 16:26:34,966 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA16360>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f89d372ac8918b3e521effc7026a3170/url
+2025-10-27 16:26:39,015 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA17290>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f89d372ac8918b3e521effc7026a3170/url
+2025-10-27 16:26:43,067 - WARNING - [WARN] Error checking page state: HTTPConnectionPool(host='localhost', port=52434): Max retries exceeded with url: /session/f89d372ac8918b3e521effc7026a3170/url (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA17410>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 16:26:47,130 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA17530>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f89d372ac8918b3e521effc7026a3170/screenshot
+2025-10-27 16:26:51,214 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA176E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f89d372ac8918b3e521effc7026a3170/screenshot
+2025-10-27 16:26:55,259 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA17860>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/f89d372ac8918b3e521effc7026a3170/screenshot
+2025-10-27 16:26:59,338 - WARNING - [SCREENSHOT] Failed (browser may have crashed): HTTPConnectionPool(host='localhost', port=52434): Max retries exceeded with url: /session/f89d372ac8918b3e521effc7026a3170/screenshot (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000029CAEA179E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-10-27 16:26:59,338 - ERROR - [FAIL] Attempt 1 failed
+2025-10-27 16:26:59,338 - INFO - ============================================================
+2025-10-27 16:26:59,339 - INFO - [SUMMARY] 0/1 attempts succeeded
+2025-10-27 16:26:59,339 - INFO - ============================================================
+2025-10-27 16:26:59,339 - INFO - 
+Keeping browser open for 10 seconds...
+2025-10-27 16:27:09,340 - INFO - [CLOSE] Closing browser...
+2025-10-27 16:27:09,508 - INFO - [CLOSE] Browser closed
